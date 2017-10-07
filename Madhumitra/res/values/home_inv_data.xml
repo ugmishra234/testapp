@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="home_investigations">
+        <item>BSL</item>
+        <item>Blood Pressure</item>
+    </string-array>
+</resources>

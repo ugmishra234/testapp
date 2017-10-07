@@ -1,0 +1,10 @@
+<resources>
+    <array name="lab_investigations">
+        <item>Lipid Profile</item>
+        <item>Blood Sugar</item>
+        <item>HbA1c</item>
+        <item>Blood Urea</item>
+        <item>Serum Creatinine</item>
+        <item>Other</item>
+    </array>
+</resources>

@@ -1,0 +1,424 @@
+<resources>
+    <string-array name="meal_main_course_items">
+        <item>Aaloo Mutter</item>
+        <item>Aaloo Poshto (Bengali Style)</item>
+        <item>Akbari Paneer</item>
+        <item>Allo Simla Mirch</item>
+        <item>Aloo baigan</item>
+        <item>Aloo Capsicum Sabzi</item>
+        <item>Aloo Curry</item>
+        <item>Aloo Gobhi Sabzi</item>
+        <item>Aloo Methi</item>
+        <item>Aloo Methi</item>
+        <item>Aloo Mutter</item>
+        <item>Amati</item>
+        <item>Arhar Dal</item>
+        <item>Baigan Bharta</item>
+        <item>Baked Brinjal in Tomato Sauce</item>
+        <item>Baked Potato</item>
+        <item>Baked Vegetables</item>
+        <item>Beans Subzi</item>
+        <item>Besan and Spinach Paranthas</item>
+        <item>Bhindi</item>
+        <item>Black Channa Curry</item>
+        <item>Brinjal Bhurta</item>
+        <item>Brussels Veg Sprouts Fry</item>
+        <item>Cabbage</item>
+        <item>Cabbage and Pea Sabzi</item>
+        <item>Cabbage Kofta Curry</item>
+        <item>Carrot cucumber beet in hung curd</item>
+        <item>Carrots Subzi</item>
+        <item>Cauliflower Kofta Curry</item>
+        <item>Cauliflower peas subzi</item>
+        <item>Chana Boiled</item>
+        <item>Chana Cooked</item>
+        <item>Chana Masala</item>
+        <item>Channa Dal with Ghia</item>
+        <item>Channa Dal with Ghia</item>
+        <item>Chole</item>
+        <item>Chole</item>
+        <item>Curry (Besan curry)</item>
+        <item>Dal Dhokli</item>
+        <item>Dal fry</item>
+        <item>Dal makhani</item>
+        <item>Dal tadka</item>
+        <item>Dry Washed Urad</item>
+        <item>Dum Aloo</item>
+        <item>Dum Arbi</item>
+        <item>Gajar Methi</item>
+        <item>Gattek Ki Subjji</item>
+        <item>Ghia Kofta Curry</item>
+        <item>Gobhi Musallam</item>
+        <item>Gujrati Khandvi</item>
+        <item>Kabuli Chole</item>
+        <item>Kaddu</item>
+        <item>Kadhai Paneer</item>
+        <item>Kadhi</item>
+        <item>Kadhi Pakoda</item>
+        <item>Kamal Kakri Curry</item>
+        <item>Kamal Kakri Kofta Curry</item>
+        <item>Karhi (Kadhi)</item>
+        <item>Kathal Subji</item>
+        <item>Keerai Masiyal (Greens Garlic Mashed curry)</item>
+        <item>Khatta Channa</item>
+        <item>Khumb Kali Mirch (Pepper Mushroom Fry)</item>
+        <item>Legumes with Husk (Moong</item>
+        <item>Maa Ki daal</item>
+        <item>Masoor Boiled</item>
+        <item>Masoor Cooked</item>
+        <item>Massor Daal</item>
+        <item>Matar Mushroom</item>
+        <item>Methi Chaman</item>
+        <item>Mixed Dal</item>
+        <item>Moong Boiled</item>
+        <item>Moong Cooked</item>
+        <item>Moong Dal</item>
+        <item>Moong Dal Cooked</item>
+        <item>Moong Usal</item>
+        <item>Moti Mahal Dal</item>
+        <item>Muth Boiled</item>
+        <item>Muth Cooked</item>
+        <item>Palak Paneer</item>
+        <item>Paneer Curry</item>
+        <item>Paneer in Butter Sauce</item>
+        <item>Paneer Kathi Rolls</item>
+        <item>Paneer Makhana Korma</item>
+        <item>Paneer Mutter</item>
+        <item>Paneer Tikkis (Cottage Cheese Cutlets)</item>
+        <item>Papad Curry (Rajasthan Style Poppadum Curry)</item>
+        <item>Paruppu Urappu Adai (Dal Pancake)</item>
+        <item>Pea Curry</item>
+        <item>Pea Kofta Curry</item>
+        <item>Pea Paneer Curry</item>
+        <item>Pea Potato Curry</item>
+        <item>Pea Vadi Curry</item>
+        <item>Pindi Channa</item>
+        <item>Poories</item>
+        <item>Potato Stuffed Poories</item>
+        <item>Rajama Boiled</item>
+        <item>Rajama Cooked</item>
+        <item>Rajma</item>
+        <item>Rava Idli</item>
+        <item>Raw Banana Kofta Curry</item>
+        <item>Ridge gourd (turai) Subzi</item>
+        <item>Ridge gourd (turai) Subzi</item>
+        <item>Sambhar</item>
+        <item>Sarson ka Saag</item>
+        <item>Sauteed green beans with tofu</item>
+        <item>Shahi Paneer</item>
+        <item>Sindhi Kadhi</item>
+        <item>Soyabean cooked</item>
+        <item>Spinach Dhokla</item>
+        <item>Spinach Kofta Curry</item>
+        <item>Spinach Paneer Kofta Curry</item>
+        <item>Spinach/Methi Poories</item>
+        <item>Sprouted Moong Pulao</item>
+        <item>Stuffed Bhindi</item>
+        <item>Stuffed Brinjals</item>
+        <item>Stuffed Capsicum</item>
+        <item>Stuffed Karelas</item>
+        <item>Stuffed Lauki</item>
+        <item>Stuffed Tinda</item>
+        <item>Stuffed Tomatoes</item>
+        <item>Stuffed Tomatoes</item>
+        <item>Tandoori Gobhi</item>
+        <item>Tawa Vegetables</item>
+        <item>Tur Boiled</item>
+        <item>Tur dal cooked</item>
+        <item>Uppudu Pindi (Rice Flour Upma)</item>
+        <item>Urad Boiled</item>
+        <item>Urad Daal</item>
+        <item>Urad Dal Cooked</item>
+        <item>Val Boiled</item>
+        <item>Val Cooked</item>
+        <item>Varan</item>
+        <item>Vatana Boiled</item>
+        <item>Vatana Cooked</item>
+        <item>Veg Jafrani</item>
+        <item>Veg Kofta curry</item>
+        <item>Veg Korma</item>
+        <item>Vegetable Bonda (Mix Veg Dumplings)</item>
+    </string-array>
+
+    <string-array name="meal_main_course_item_quant_unit_description">
+        <item>No of bowls</item>
+        <item>No of Katoris</item>
+        <item>No of bowls</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Vatis</item>
+        <item>Numbers</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of bowls</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Vatis</item>
+        <item>No of Katoris</item>
+        <item>No of Vatis</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of Vatis</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Vatis</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of bowls</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>No of Vatis</item>
+        <item>No of Katoris</item>
+        <item>No of Vatis</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Vatis</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of bowls</item>
+        <item>No of Katoris</item>
+        <item>No of Vatis</item>
+        <item>Numbers</item>
+        <item>No of Vatis</item>
+        <item>No of plates</item>
+        <item>Numbers</item>
+        <item>No of Katoris</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Katoris</item>
+        <item>No of Vatis</item>
+        <item>No of bowls</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>Numbers</item>
+        <item>No of Katoris</item>
+        <item>No of Vatis</item>
+        <item>No of plates</item>
+        <item>No of vatis</item>
+        <item>No of vatis</item>
+        <item>No of Vatis</item>
+        <item>No of plates</item>
+        <item>No of Katoris</item>
+        <item>No of Plates</item>
+        <item>No of vatis</item>
+        <item>No of vatis</item>
+        <item>No of Katoris</item>
+        <item>Numbers</item>
+        <item>No of vatis</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of vatis</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of bowls</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>Numbers</item>
+    </string-array>
+
+    <integer-array name="meal_main_course_item_calories">
+        <item>230</item>
+        <item>161</item>
+        <item>187</item>
+        <item>283</item>
+        <item>103</item>
+        <item>148</item>
+        <item>105</item>
+        <item>107</item>
+        <item>226</item>
+        <item>121</item>
+        <item>134</item>
+        <item>186</item>
+        <item>53</item>
+        <item>70</item>
+        <item>177</item>
+        <item>248</item>
+        <item>267</item>
+        <item>172</item>
+        <item>124</item>
+        <item>61</item>
+        <item>198</item>
+        <item>109</item>
+        <item>83</item>
+        <item>131</item>
+        <item>118</item>
+        <item>230</item>
+        <item>47</item>
+        <item>148</item>
+        <item>278</item>
+        <item>257</item>
+        <item>108</item>
+        <item>158</item>
+        <item>237</item>
+        <item>93</item>
+        <item>99</item>
+        <item>310</item>
+        <item>74</item>
+        <item>100</item>
+        <item>238</item>
+        <item>177</item>
+        <item>196</item>
+        <item>190</item>
+        <item>93</item>
+        <item>165</item>
+        <item>180</item>
+        <item>60</item>
+        <item>275</item>
+        <item>206</item>
+        <item>132</item>
+        <item>289</item>
+        <item>200</item>
+        <item>67</item>
+        <item>326</item>
+        <item>132</item>
+        <item>146</item>
+        <item>220</item>
+        <item>325</item>
+        <item>242</item>
+        <item>138</item>
+        <item>86</item>
+        <item>155</item>
+        <item>104</item>
+        <item>100</item>
+        <item>92</item>
+        <item>102</item>
+        <item>152</item>
+        <item>165</item>
+        <item>180</item>
+        <item>340</item>
+        <item>178</item>
+        <item>94</item>
+        <item>150</item>
+        <item>211</item>
+        <item>154</item>
+        <item>211</item>
+        <item>292</item>
+        <item>99</item>
+        <item>149</item>
+        <item>72</item>
+        <item>252</item>
+        <item>112</item>
+        <item>584</item>
+        <item>582</item>
+        <item>147</item>
+        <item>80</item>
+        <item>108</item>
+        <item>268</item>
+        <item>141</item>
+        <item>231</item>
+        <item>203</item>
+        <item>124</item>
+        <item>298</item>
+        <item>466</item>
+        <item>98</item>
+        <item>155</item>
+        <item>103</item>
+        <item>153</item>
+        <item>102</item>
+        <item>104</item>
+        <item>388</item>
+        <item>174</item>
+        <item>65</item>
+        <item>304</item>
+        <item>166</item>
+        <item>124</item>
+        <item>283</item>
+        <item>243</item>
+        <item>180</item>
+        <item>81</item>
+        <item>302</item>
+        <item>264</item>
+        <item>97</item>
+        <item>185</item>
+        <item>85</item>
+        <item>80</item>
+        <item>138</item>
+        <item>129</item>
+        <item>139</item>
+        <item>185</item>
+        <item>121</item>
+        <item>85</item>
+        <item>104</item>
+        <item>100</item>
+        <item>100</item>
+        <item>150</item>
+        <item>272</item>
+        <item>104</item>
+        <item>107</item>
+        <item>154</item>
+        <item>104</item>
+        <item>154</item>
+        <item>150</item>
+        <item>94</item>
+        <item>144</item>
+        <item>160</item>
+        <item>147</item>
+        <item>88</item>
+        <item>215</item>
+    </integer-array>
+</resources>

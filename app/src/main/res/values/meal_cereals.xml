@@ -1,0 +1,97 @@
+<resources>
+    <string-array name="meal_cereals_items">
+        <item>Masoor Boiled</item>
+        <item>Val Boiled</item>
+        <item>Vatana Boiled</item>
+        <item>Moong Boiled</item>
+        <item>Muth Boiled</item>
+        <item>Rajama Boiled</item>
+        <item>Urad Boiled</item>
+        <item>Tur Boiled</item>
+        <item>Chana Boiled</item>
+        <item>Masoor Cooked</item>
+        <item>Val Cooked</item>
+        <item>Vatana Cooked</item>
+        <item>Muth Cooked</item>
+        <item>Moong Cooked</item>
+        <item>Moong Dal Cooked</item>
+        <item>Rajama Cooked</item>
+        <item>Urad Dal Cooked</item>
+        <item>Tur dal cooked </item>
+        <item>Amati</item>
+        <item>Varan</item>
+        <item>Dal fry</item>
+        <item>Chana Cooked</item>
+        <item>Dal makhani</item>
+        <item>Kadhi</item>
+        <item>Kadhi Pakoda</item>
+        <item>Soyabean cooked</item>
+        <item>Kabuli Chole</item>
+        <item>Moong Usal</item>
+        <item>Chana Masala</item>
+    </string-array>
+
+    <string-array name="meal_cereals_item_quant_unit_description">
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+    </string-array>
+
+    <integer-array name="meal_cereals_item_calories">
+        <item>102</item>
+        <item>104</item>
+        <item>94</item>
+        <item>94</item>
+        <item>99</item>
+        <item>103</item>
+        <item>104</item>
+        <item>100</item>
+        <item>108</item>
+        <item>152</item>
+        <item>154</item>
+        <item>144</item>
+        <item>149</item>
+        <item>150</item>
+        <item>154</item>
+        <item>153</item>
+        <item>154</item>
+        <item>150</item>
+        <item>186</item>
+        <item>150</item>
+        <item>177</item>
+        <item>158</item>
+        <item>196</item>
+        <item>132</item>
+        <item>146</item>
+        <item>180</item>
+        <item>200</item>
+        <item>211</item>
+        <item>237</item>
+    </integer-array>
+</resources>

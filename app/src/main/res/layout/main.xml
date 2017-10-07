@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/th_set_menu_tabhost"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+    <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+    <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="65px">
+        <LinearLayout android:orientation="vertical"
+                      android:id="@+id/tab1"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+
+            <com.honap.madhumitra.view.DashboardLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                <Button android:id="@+id/home_btn_activity"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/recordactivity"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:text="Activity"
+                        />
+                />
+                <Button android:id="@+id/home_btn_meal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:drawableTop="@drawable/meal"
+                        android:background="@android:color/black"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:text="Meal"/>
+                />
+                <Button android:id="@+id/home_btn_record_exercise"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/excercise"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:text="Exercise"/>
+                />
+                <!--<Button android:id="@+id/home_btn_symptom"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:background="@android:color/black"-->
+                <!--android:drawableTop="@drawable/symptom"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="12dip"-->
+                <!--android:text="Symptom"/>-->
+                />
+                <Button android:id="@+id/home_btn_home_inv"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/homeinvestigation"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:text="BSL Reading"/>
+
+                <!--<Button android:id="@+id/home_btn_lab_inv"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:drawableTop="@drawable/labinvestigation"-->
+                <!--android:background="@android:color/black"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="12dip"-->
+                <!--android:cursorVisible="true"-->
+                <!--android:text="Lab Investigation"/>-->
+
+                <!--<Button android:id="@+id/home_btn_medication"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:drawableTop="@drawable/medication"-->
+                <!--android:background="@android:color/black"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="12dip"-->
+                <!--android:cursorVisible="true"-->
+                <!--android:text="Medication"/>-->
+
+                <Button android:id="@+id/home_btn_doctor_record_prescription"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:drawableTop="@drawable/prescription"
+                        android:background="@android:color/black"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:cursorVisible="true"
+                        android:text="Prescription"/>
+
+                <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/settings"
+                        android:visibility="invisible"
+                        />
+                />
+            </com.honap.madhumitra.view.DashboardLayout>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/tab2"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <com.honap.madhumitra.view.DashboardLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                <Button android:id="@+id/home_btn_calorie_report"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/calorie_report"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:text="Calorie Report"/>
+                <Button android:id="@+id/home_btn_activity_report"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/activity_report"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:text="Activity Report"/>
+                <Button android:id="@+id/home_btn_bsl_report"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/bsl_report"
+                        android:textColor="#ffffff"
+                        android:textSize="12dip"
+                        android:text="BSL Trend"/>
+                <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/settings"
+                        android:visibility="invisible"
+                        />
+                <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/settings"
+                        android:visibility="invisible"
+                        />
+                <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        android:drawableTop="@drawable/settings"
+                        android:visibility="invisible"
+                        />
+
+            </com.honap.madhumitra.view.DashboardLayout>
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:id="@+id/tab3"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent">-->
+
+        <!--<com.honap.madhumitra.view.DashboardLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!-->-->
+
+        <!--<Button android:id="@+id/home_btn_user_profiles"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:drawableTop="@drawable/user_profiles"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="12dip"-->
+        <!--android:text="User Profiles"/>-->
+        <!--<Button android:id="@+id/home_btn_settings"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:drawableTop="@drawable/settings"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="12dip"-->
+        <!--android:text="Settings"/>-->
+        <!--<Button android:id="@+id/home_btn_help"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:drawableTop="@drawable/help"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="12dip"-->
+        <!--android:text="Help"/>-->
+        <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:drawableTop="@drawable/settings"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+
+        <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:drawableTop="@drawable/settings"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+        <!--<Button android:layout_height="wrap_content" android:layout_width="wrap_content"-->
+        <!--android:background="@android:color/black"-->
+        <!--android:drawableTop="@drawable/settings"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+        <!--</com.honap.madhumitra.view.DashboardLayout>-->
+
+        <!--</LinearLayout>-->
+
+    </FrameLayout>
+</TabHost>
+

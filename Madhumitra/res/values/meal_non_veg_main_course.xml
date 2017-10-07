@@ -1,0 +1,436 @@
+<resources>
+    <string-array name="meal_poultry_mutton_items">
+        <item>Bacon slice</item>
+        <item>Beef Salami Slice</item>
+        <item>Boiled Egg</item>
+        <item>Bombay Duck Curry</item>
+        <item>Bombay Duck Fry</item>
+        <item>Butter Chicken</item>
+        <item>Catfish Fry</item>
+        <item>Chicken Biryani</item>
+        <item>Chicken Burger</item>
+        <item>Chicken Chilly Fry</item>
+        <item>Chicken Frankie</item>
+        <item>Chicken Fried rice</item>
+        <item>Chicken haka noodles</item>
+        <item>Chicken Hyderabadi</item>
+        <item>Chicken In hot garlik saise</item>
+        <item>Chicken Korma</item>
+        <item>Chicken Mughlai</item>
+        <item>Chicken Roast</item>
+        <item>Chicken Roll</item>
+        <item>Chicken samosa</item>
+        <item>Chicken souffle</item>
+        <item>Chicken Soup</item>
+        <item>Chicken stew</item>
+        <item>Chicken Sukha</item>
+        <item>Chicken tikka</item>
+        <item>Chilly prawns</item>
+        <item>Crab Alaska King one leg</item>
+        <item>Crab alaska King steamed</item>
+        <item>Crab Curry</item>
+        <item>Crab Sdry</item>
+        <item>Crab Stew</item>
+        <item>Egg</item>
+        <item>Egg Bhurji</item>
+        <item>Egg Cheese toast</item>
+        <item>Egg Curry</item>
+        <item>Egg Cutlets</item>
+        <item>Egg Dal Curry</item>
+        <item>Egg fired in butter</item>
+        <item>Egg Flip with milk</item>
+        <item>Egg Fried Rice</item>
+        <item>Egg Masala</item>
+        <item>Egg molee</item>
+        <item>Egg Omelette Sandwich</item>
+        <item>Egg On potatos</item>
+        <item>Egg On Tomatos</item>
+        <item>Egg pattice</item>
+        <item>Egg Potato Curry</item>
+        <item>Egg Sandwich</item>
+        <item>Egg stew</item>
+        <item>Egg White</item>
+        <item>Egg yellow</item>
+        <item>Fish Curry</item>
+        <item>Fish Cutlet</item>
+        <item>Fish Fry</item>
+        <item>French Toast</item>
+        <item>Fried egg</item>
+        <item>Ghol Curry</item>
+        <item>Ghol Fry</item>
+        <item>Ghol Molee</item>
+        <item>Ghol Stew</item>
+        <item>grilled chicken in Lemon sauce</item>
+        <item>Ham Slice cooked smoked</item>
+        <item>Hamburger</item>
+        <item>Kadai Chicken</item>
+        <item>Kenttucky Fried chicken</item>
+        <item>Kheema Curry</item>
+        <item>Liver masala</item>
+        <item>lobster Boiled</item>
+        <item>Lobster Curry</item>
+        <item>Lobster fry</item>
+        <item>Mandeli Curry</item>
+        <item>mandeli Fry</item>
+        <item>Meat Balls</item>
+        <item>Moushi Curry</item>
+        <item>Moushi Fry</item>
+        <item>Mullet Curry</item>
+        <item>Mullet Fry</item>
+        <item>Mullet Stew</item>
+        <item>Murg Mussalam</item>
+        <item>Mutton Ball curry</item>
+        <item>Mutton Biryani</item>
+        <item>Mutton Burger</item>
+        <item>Mutton Chili Fry</item>
+        <item>Mutton Curry</item>
+        <item>Mutton Cutlet</item>
+        <item>Mutton do Pyaza</item>
+        <item>Mutton frankie</item>
+        <item>Mutton hyderabadi</item>
+        <item>Mutton Kofta Curry</item>
+        <item>Mutton Korma</item>
+        <item>mutton Mughalai</item>
+        <item>Mutton Palak</item>
+        <item>Mutton pattise</item>
+        <item>Mutton Rogan Josh</item>
+        <item>Mutton Samosa</item>
+        <item>Mutton Sandwich</item>
+        <item>Mutton Sheekh Kabab</item>
+        <item>Mutton Soup Medium Thick</item>
+        <item>Mutton stew</item>
+        <item>Mutton Sukha</item>
+        <item>Nutton vindaloo</item>
+        <item>Omelette One egg</item>
+        <item>Pan Rolls with egg</item>
+        <item>Patrani Macchi</item>
+        <item>Poached egg</item>
+        <item>Pork Curry</item>
+        <item>Pork Cutlet</item>
+        <item>Pork in hot garlic sauce</item>
+        <item>Pork Sauseges</item>
+        <item>pork sauseges Fried</item>
+        <item>Pork Stew</item>
+        <item>Pork Vindaloo</item>
+        <item>Prawns curry</item>
+        <item>Prawns cutlet</item>
+        <item>Prawns pilav</item>
+        <item>Prawns Stew</item>
+        <item>Prawns sukha</item>
+        <item>Prawns Vindaloo</item>
+        <item>ravas Curry</item>
+        <item>ravas Fry</item>
+        <item>Ravas stew</item>
+        <item>Sacllops Steamed</item>
+        <item>Sardine curry</item>
+        <item>Sardine fry</item>
+        <item>Sardine stew</item>
+        <item>Scallops fry</item>
+        <item>Scramblled Egg</item>
+        <item>Seer Curry</item>
+        <item>Seer Fry</item>
+        <item>Seer Stew</item>
+        <item>Shahi Kabab</item>
+        <item>Shark Fry</item>
+        <item>Shrimp Curry</item>
+        <item>Shrimp Dry</item>
+        <item>Shrimp rice</item>
+        <item>Surmai Curry</item>
+        <item>Surmai fry</item>
+        <item>Surmai stwe</item>
+        <item>Sweet and sour chicken</item>
+        <item>Sweet and sour prawns</item>
+        <item>Tandoori Chicken</item>
+        <item>Tuna Steamed</item>
+    </string-array>
+
+    <string-array name="meal_poultry_mutton_item_quant_unit_description">
+        <item>Numbers (Thin Slice)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Number of plates</item>
+        <item>No of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Number of piceses</item>
+        <item>Numbers of Plates</item>
+        <item>Number of piceses</item>
+        <item>Number of plates</item>
+        <item>Numbers of Plates</item>
+        <item>Number of plates</item>
+        <item>Numbers of Plates</item>
+        <item>Number of plates</item>
+        <item>Number of plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of piceses</item>
+        <item>Number of plates</item>
+        <item>Numbers Bowl</item>
+        <item>Numbers of Plates</item>
+        <item>Number of plates</item>
+        <item>Number of plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers Glass</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>NumbersPlate</item>
+        <item>Numbers</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of Plates</item>
+        <item>Number of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of Plates</item>
+        <item>Numbers of Plates</item>
+        <item>No of Plates</item>
+        <item>Number of piceses</item>
+        <item>No of Plates</item>
+    </string-array>
+
+    <integer-array name="meal_poultry_mutton_item_calories">
+        <item>36</item>
+        <item>56</item>
+        <item>85</item>
+        <item>595</item>
+        <item>180</item>
+        <item>374</item>
+        <item>259</item>
+        <item>470</item>
+        <item>442</item>
+        <item>285</item>
+        <item>432</item>
+        <item>505</item>
+        <item>306</item>
+        <item>400</item>
+        <item>298</item>
+        <item>375</item>
+        <item>458</item>
+        <item>253</item>
+        <item>281</item>
+        <item>195</item>
+        <item>467</item>
+        <item>247</item>
+        <item>263</item>
+        <item>458</item>
+        <item>273</item>
+        <item>96</item>
+        <item>119</item>
+        <item>109</item>
+        <item>471</item>
+        <item>332</item>
+        <item>221</item>
+        <item>82</item>
+        <item>195</item>
+        <item>375</item>
+        <item>277</item>
+        <item>290</item>
+        <item>272</item>
+        <item>99</item>
+        <item>363</item>
+        <item>337</item>
+        <item>180</item>
+        <item>419</item>
+        <item>468</item>
+        <item>254</item>
+        <item>194</item>
+        <item>190</item>
+        <item>227</item>
+        <item>258</item>
+        <item>263</item>
+        <item>17</item>
+        <item>59</item>
+        <item>455</item>
+        <item>310</item>
+        <item>290</item>
+        <item>232</item>
+        <item>175</item>
+        <item>190</item>
+        <item>145</item>
+        <item>377</item>
+        <item>177</item>
+        <item>378</item>
+        <item>20</item>
+        <item>600</item>
+        <item>343</item>
+        <item>295</item>
+        <item>280</item>
+        <item>330</item>
+        <item>30</item>
+        <item>414</item>
+        <item>90</item>
+        <item>532</item>
+        <item>205</item>
+        <item>60</item>
+        <item>-1</item>
+        <item>170</item>
+        <item>457</item>
+        <item>115</item>
+        <item>115</item>
+        <item>265</item>
+        <item>550</item>
+        <item>470</item>
+        <item>500</item>
+        <item>310</item>
+        <item>485</item>
+        <item>130</item>
+        <item>255</item>
+        <item>450</item>
+        <item>390</item>
+        <item>610</item>
+        <item>200</item>
+        <item>365</item>
+        <item>280</item>
+        <item>130</item>
+        <item>340</item>
+        <item>160</item>
+        <item>272</item>
+        <item>164</item>
+        <item>400</item>
+        <item>263</item>
+        <item>250</item>
+        <item>430</item>
+        <item>130</item>
+        <item>134</item>
+        <item>303</item>
+        <item>85</item>
+        <item>550</item>
+        <item>260</item>
+        <item>330</item>
+        <item>125</item>
+        <item>170</item>
+        <item>330</item>
+        <item>320</item>
+        <item>391</item>
+        <item>194</item>
+        <item>550</item>
+        <item>80</item>
+        <item>90</item>
+        <item>128</item>
+        <item>432</item>
+        <item>90</item>
+        <item>142</item>
+        <item>127</item>
+        <item>385</item>
+        <item>128</item>
+        <item>85</item>
+        <item>242</item>
+        <item>120</item>
+        <item>428</item>
+        <item>100</item>
+        <item>90</item>
+        <item>110</item>
+        <item>90</item>
+        <item>650</item>
+        <item>180</item>
+        <item>534</item>
+        <item>419</item>
+        <item>106</item>
+        <item>85</item>
+        <item>335</item>
+        <item>130</item>
+        <item>273</item>
+        <item>209</item>
+    </integer-array>
+</resources>

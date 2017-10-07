@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="meal_types">
+        <item>Hard and Soft Drinks</item>
+        <item>Veg. Main Course</item>
+        <item>Milk Products</item>
+        <item>Non Veg. Main Course</item>
+        <item>Fruits and Nuts</item>
+        <item>Snacks</item>
+        <item>Sweets</item>
+        <item>Rice, Rotis and S.Indian</item>
+    </string-array>
+</resources>

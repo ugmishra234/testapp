@@ -1,0 +1,447 @@
+<resources>
+    <string-array name="activities">
+        <item>Airplane Repair</item>
+        <item>Automobile Body Work</item>
+        <item>Automobile Repair</item>
+        <item>Ax Chopping</item>
+        <item>Bakery Light Effort</item>
+        <item>Bakery ModerateEffort</item>
+        <item>Baling Hay</item>
+        <item>Cleaning Barn</item>
+        <item>Poultry Work</item>
+        <item>Bartending</item>
+        <item>Store Clerk</item>
+        <item>Standing and Talking At Work</item>
+        <item>Changing Clothes</item>
+        <item>Bathing (Sitting)</item>
+        <item>Bookbinding</item>
+        <item>Building a Fire Inside</item>
+        <item>Building Road - Including Hauling Debris</item>
+        <item>Butchering animals</item>
+        <item>Carpentery</item>
+        <item>Carpentry - Finishing or Refinishing Cabinets or Furniture</item>
+        <item>Carpentry - General</item>
+        <item>Carpentry - Outside House</item>
+        <item>Installing Rain Gutters</item>
+        <item>Building a Fence</item>
+        <item>Carpentry - Sawing Hardwood</item>
+        <item>Carpet Sweeping - Sweeping Floors</item>
+        <item>Carrying - Loading or Stacking Wood</item>
+        <item>Loading/unloading or Carrying Lumber</item>
+        <item>Carrying 1 To 15 Lb Load - Upstairs</item>
+        <item>Carrying 16 To 24 Lb Load - Upstairs</item>
+        <item>Carrying 25 To 49 Lb Load - Upstairs</item>
+        <item>Carrying 50 To 74 Lb Load - Upstairs</item>
+        <item>Carrying 74+ Lb Load - Upstairs</item>
+        <item>Carrying Groceries Upstairs</item>
+        <item>Carrying heavy loads Such As Bricks</item>
+        <item>Carrying Load Upstairs - General</item>
+        <item>Carrying Moderate Loads Up Stairs - Moving Boxes (16-40 Pounds)</item>
+        <item>Carrying Small Children</item>
+        <item>Child Care: Sitting/kneeling - Dressing - Bathing</item>
+        <item>Grooming child</item>
+        <item>Feeding child</item>
+        <item>Occasional Lifting Of Child-light Effort</item>
+        <item>Chopping Wood - Splitting Logs</item>
+        <item>Cleaning - E.g. Wash Car</item>
+        <item>Wash Windows</item>
+        <item>Clean Garage</item>
+        <item>Cleaning - House or Cabin</item>
+        <item>Cleaning - Light</item>
+        <item>Cleaning Gutters</item>
+        <item>Cleaning Sink and Toilet - Light Effort</item>
+        <item>Clearing Land - Hauling Branches or Wheelbarrow Chores</item>
+        <item>Construction</item>
+        <item>Cooking Indian Bread On An Outside Stove</item>
+        <item>Cooking or Food Preparation - Standing or Sitting or In General</item>
+        <item>Cooking or Food Preparation - Walking</item>
+        <item>Digging</item>
+        <item>Spading</item>
+        <item>Filling Garden</item>
+        <item>Composting</item>
+        <item>Digging Sandbox</item>
+        <item>Dressing - Undressing (Standing or Sitting)</item>
+        <item>Driving Tractor</item>
+        <item>Dusting - Light Effort</item>
+        <item>Eating (Sitting)</item>
+        <item>Elder Care - Disabled Adult</item>
+        <item>Feeding Animals</item>
+        <item>Feeding Cattle or Horses</item>
+        <item>Feeding Small Animals</item>
+        <item>Felling Trees</item>
+        <item>Firefighter</item>
+        <item>Firefighter Climbing Ladder With Full Gear</item>
+        <item>Firefighter Hauling Hoses On Ground</item>
+        <item>Food Shopping With or Without a Grocery Cart - Standing or Walking</item>
+        <item>Forking Straw Bales</item>
+        <item>Cleaning Corral or Barn</item>
+        <item>Gardening - General</item>
+        <item>Gardening With Heavy Power Tools - Tilling a Garden or using Chain Saw</item>
+        <item>Lab Work</item>
+        <item>Watch Repair or Micro-assembly</item>
+        <item>Light Assembly/repair)</item>
+        <item>Sitting</item>
+        <item>Reading</item>
+        <item>Driving At Work</item>
+        <item>General Cleaning - Moderate Effort</item>
+        <item>Note taking or Class Discussion</item>
+        <item>Guitar Sitting</item>
+        <item>Guitar standing</item>
+        <item>Hairstyling</item>
+        <item>Hand Sewing</item>
+        <item>Hanging Storm Windows</item>
+        <item>Hauling Water</item>
+        <item>Implied Walking - Putting Away Clothes - Gathering Clothes To Pack</item>
+        <item>Putting Away Laundry</item>
+        <item>Implied Walking - Putting Away Household Items - Moderate Effort</item>
+        <item>Ironing</item>
+        <item>Laying Crushed Rock</item>
+        <item>Laying or Removing Carpet</item>
+        <item>Laying Tile or Linoleum - Repairing Appliances</item>
+        <item>Lifting items 10 - 20 Lbs With Limited Walking or Resting</item>
+        <item>Light Meditating</item>
+        <item>Light Reclining - Reading</item>
+        <item>Light Reclining - Talking or Talking On Phone</item>
+        <item>Light Reclining - Writing</item>
+        <item>Loading and Unloading Truck (Standing)</item>
+        <item>Locksmith</item>
+        <item>Machine Sewing</item>
+        <item>Making Bed</item>
+        <item>Masonary Concrete</item>
+        <item>Milking By Hand</item>
+        <item>Milking By Machine</item>
+        <item>Mopping</item>
+        <item>Moving Furniture - Household Items or Carrying Boxes</item>
+        <item>Mowing Lawn - General</item>
+        <item>Mowing Lawn - Power Mower</item>
+        <item>Mowing Lawn - Riding Mower</item>
+        <item>Multiple Household Tasks All At Once - Light Effort</item>
+        <item>Multiple Household Tasks All At Once - Moderate Effort</item>
+        <item>Multiple Household Tasks All At Once - Vigorous Effort</item>
+        <item>Non-food Shopping - Standing or Walking</item>
+        <item>Operating Lathe</item>
+        <item>Operating Punch Press</item>
+        <item>Operating Snow Blower - Walking</item>
+        <item>Painting</item>
+        <item>Painting - Outside Home</item>
+        <item>Painting - Papering</item>
+        <item>Plastering</item>
+        <item>Scraping</item>
+        <item>Hanging Sheet Rock</item>
+        <item>Piano or organ</item>
+        <item>Picking Fruit Off Trees - Picking Fruits/vegetables</item>
+        <item>Planting Seedlings - Shrubs</item>
+        <item>Planting Trees</item>
+        <item>Playing accordion</item>
+        <item>Police Directing Traffic (Standing)</item>
+        <item>Police Driving a Squad Car (Sitting)</item>
+        <item>Quiet Lying Quietly - Doing Nothing</item>
+        <item>Lying In Bed Awake</item>
+        <item>Listening To Music Not Talking or Reading</item>
+        <item>Quiet Lying Quietly - Watching Television</item>
+        <item>Quiet Sleeping</item>
+        <item>Quiet Standing Quietly (Standing In a Line)</item>
+        <item>Raking Lawn</item>
+        <item>Raking Roof With Snow Rake</item>
+        <item>Reclining With Baby</item>
+        <item>Relaxing</item>
+        <item>Sacking Grass - Leaves</item>
+        <item>Sanding Floors With a Power Sander</item>
+        <item>Sawing By Hand</item>
+        <item>Sawing Power saw</item>
+        <item>Scrubbing Floors - On Hands and Knees</item>
+        <item>Scrubbing Bathroom</item>
+        <item>Serving Food - Setting Table - Implied Walking or Standing</item>
+        <item>Sexual Activity</item>
+        <item>Sexual Activity</item>
+        <item>Sexual Activity</item>
+        <item>Shoe repair</item>
+        <item>Shoveling - Digging Ditches</item>
+        <item>Shoveling - Heavy (More Than 16 Pounds/minute)</item>
+        <item>Shoveling - Moderate (10 To 15 Pounds/minute)</item>
+        <item>Shoveling Grain</item>
+        <item>Shoveling Snow - By Hand</item>
+        <item>Showering - Toweling Off (Standing)</item>
+        <item>Sit - Playing With Animals only period of active play</item>
+        <item>Sitting - Arts and Crafts - Light Effort</item>
+        <item>Sitting - Arts and Crafts - Moderate Effort</item>
+        <item>Sitting - Card Playing - Playing Board Games</item>
+        <item>Sitting - Knitting - Sewing</item>
+        <item>Sitting - Playing With Children - Only Active Periods</item>
+        <item>Sitting - Reading - Book or Newspaper2</item>
+        <item>Sitting Meetings - General</item>
+        <item>Eatting At a Business Meeting</item>
+        <item>Sitting On Toilet</item>
+        <item>Spreading Dirt With a Shovel</item>
+        <item>Stand - Playing With Animals Only Active Periods</item>
+        <item>Standing - Arts and crafts heavy effort</item>
+        <item>Standing - Arts and crafts Light effort</item>
+        <item>Standing - Bathing Dog</item>
+        <item>Standing - Pump Gas or Change Light Bulb</item>
+        <item>Standing - Playing With Children Only Active Periods</item>
+        <item>Standing - Reading</item>
+        <item>Standing- Talking/Talking on phone</item>
+        <item>Tailoring</item>
+        <item>Take Out Trash - Moderate Effort</item>
+        <item>Taking Medication - Sitting or Standing</item>
+        <item>Tapping and Drilling</item>
+        <item>Theater Actor or Backstage Employee active periods</item>
+        <item>Trimming Shrubs or Trees - Manual Cutter</item>
+        <item>Trombone</item>
+        <item>Trumpet</item>
+        <item>Typing - Electric Manual or Computer</item>
+        <item>Up Stairs - Using or Climbing Up Ladder</item>
+        <item>Using Heavy Power Tools Such As Pneumatic Tools (Jackhammers - Drills</item>
+        <item>Using Heavy Tools (Not Power) Such As Shovel - Pick</item>
+        <item>Vacuuming</item>
+        <item>Violin</item>
+        <item>Walk/run - Playing With Animals</item>
+        <item>Walk/Run - Playing With Children - Only Active Periods</item>
+        <item>Walking - Applying Fertilizer or Seeding a Lawn</item>
+        <item>Walking for Pleasure</item>
+        <item>Walking or Walk Downstairs or Standing - Carrying Objects About 100 Pounds or Over</item>
+        <item>Walking or Walk Downstairs or Standing - Carrying Objects About 25 To 49 Pounds</item>
+        <item>Walking or Walk Downstairs or Standing - Carrying Objects About 50 To 74 Pounds</item>
+        <item>Walking or Walk Downstairs or Standing - Carrying Objects About 75 To 99 Pounds</item>
+        <item>Walking Shopping - Non-grocery Shopping</item>
+        <item>Wash Dishes - Standing</item>
+        <item>Wash Dishes- Clearing Dishes From Table - Walking</item>
+        <item>Washing</item>
+        <item>Shaving</item>
+        <item>Brushing Teeth</item>
+        <item>Urinating</item>
+        <item>Washing Hands</item>
+        <item>Putting on Make-up</item>
+        <item>Water Aerobics - Water Calisthenics</item>
+        <item>Watering Lawn or Garden - Standing or Walking</item>
+        <item>Watering Plants</item>
+        <item>Weaving</item>
+        <item>Weeding</item>
+        <item>Weeding - Cultivating Garden</item>
+        <item>Welding</item>
+        <item>Wiring - Plumbing</item>
+    </string-array>
+
+    <integer-array name="activities_calories">
+        <item>5</item>
+        <item>6</item>
+        <item>5</item>
+        <item>20</item>
+        <item>3</item>
+        <item>5</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+        <item>7</item>
+        <item>4</item>
+        <item>7</item>
+        <item>5</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>11</item>
+        <item>5</item>
+        <item>7</item>
+        <item>7</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>14</item>
+        <item>11</item>
+        <item>9</item>
+        <item>10</item>
+        <item>9</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>9</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>7</item>
+        <item>3</item>
+        <item>7</item>
+        <item>6</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>6</item>
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>9</item>
+        <item>14</item>
+        <item>12</item>
+        <item>9</item>
+        <item>3</item>
+        <item>9</item>
+        <item>9</item>
+        <item>6</item>
+        <item>9</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>7</item>
+        <item>6</item>
+        <item>6</item>
+        <item>5</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>7</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>8</item>
+        <item>4</item>
+        <item>2</item>
+        <item>5</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>4</item>
+        <item>3</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>7</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>6</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>6</item>
+        <item>6</item>
+        <item>2</item>
+        <item>2</item>
+        <item>6</item>
+        <item>6</item>
+        <item>7</item>
+        <item>5</item>
+        <item>6</item>
+        <item>6</item>
+        <item>4</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>10</item>
+        <item>11</item>
+        <item>8</item>
+        <item>7</item>
+        <item>9</item>
+        <item>2</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>7</item>
+        <item>4</item>
+        <item>4</item>
+        <item>2</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>6</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>9</item>
+        <item>7</item>
+        <item>9</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>4</item>
+        <item>4</item>
+        <item>10</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+</resources>

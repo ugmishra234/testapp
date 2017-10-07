@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TableRow>
+        <EditText  android:id="@+id/bsRandom" android:layout_width="0px" android:layout_weight="1"
+                   android:layout_height="wrap_content" android:hint="Blood Sugar - Random" android:numeric="integer"/>
+        <EditText  android:id="@+id/bsFasting" android:layout_width="0px" android:layout_weight="1"
+                   android:layout_height="wrap_content" android:hint="Blood Sugar - Fasting" android:numeric="integer"/>
+
+    </TableRow>
+
+    <TableRow>
+        <EditText  android:id="@+id/bsPP" android:layout_width="0px" android:layout_weight="1"
+                   android:layout_height="wrap_content" android:hint="Blood Sugar - PP" android:numeric="integer"/>
+    </TableRow>
+</TableLayout>

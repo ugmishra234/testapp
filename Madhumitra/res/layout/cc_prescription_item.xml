@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <!--<View android:layout_width="fill_parent" android:layout_height="1px"-->
+          <!--android:background="@android:color/darker_gray"-->
+          <!--android:layout_marginTop="2px" android:layout_marginBottom="2px"/>-->
+
+
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/drugName" android:layout_height="wrap_content"
+                  android:hint="Drug"
+                  android:singleLine="true" android:layout_width="0px" android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <!--<Button android:id="@+id/drugStartDate" android:layout_height="wrap_content"-->
+                  <!--android:editable="false"-->
+                  <!--android:hint="Drug Start Date"-->
+                  <!--android:singleLine="true" android:layout_width="0px" android:layout_weight="1"/>-->
+        <EditText android:id="@+id/drugDuration" android:layout_height="wrap_content"
+                  android:hint="Duration in Days"
+                  android:layout_width="0px" android:layout_weight="1" android:inputType="numberDecimal"/>
+    </TableRow>
+
+
+    <!--<TableRow layout_span="2"  android:layout_marginBottom="2px">-->
+        <!--<Button android:id="@+id/addPrescriptionItemDoseBtn" android:text="Add Drug Dose"-->
+                <!--android:drawableLeft="@drawable/add" android:textColor="@android:color/white"-->
+                <!--android:paddingLeft="1px"-->
+                <!--android:layout_height="wrap_content" android:layout_width="wrap_content"-->
+                <!--android:background="@android:color/black"-->
+                <!--/>-->
+    <!--</TableRow>-->
+
+    <TableRow layout_span="2"  android:layout_marginBottom="2px">
+        <CheckBox android:id="@+id/mornCheckBox" android:text="Morning" android:layout_width="0px" android:layout_weight="1"
+                  android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/noonCheckBox" android:text="Afternoon" android:layout_width="0px" android:layout_weight="1"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow layout_span="2"  android:layout_marginBottom="2px">
+        <CheckBox android:id="@+id/evenCheckBox" android:text="Evening" android:layout_width="0px" android:layout_weight="1"
+                  android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/nightCheckBox" android:text="Night" android:layout_width="0px" android:layout_weight="1"
+                  android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <!--<TableLayout android:id="@+id/prescriptionItemDosesTableLayout" android:layout_width="fill_parent"-->
+                 <!--android:layout_height="wrap_content">-->
+    <!--</TableLayout>-->
+
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2px">
+        <View android:layout_width="0px" android:layout_height="1px" android:layout_weight="1"
+              android:background="@android:color/darker_gray"
+              />
+    </TableRow>
+</TableLayout>

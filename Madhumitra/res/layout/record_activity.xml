@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:scrollbars="vertical">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*">
+
+
+        <TableRow android:layout_marginTop="2px">
+            <AutoCompleteTextView
+                    android:id="@+id/activitiesAutoComplete"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" android:hint="Activity"/>
+        </TableRow>
+
+        <TableRow android:layout_width="fill_parent">
+            <Button android:id="@+id/actDate" android:layout_height="wrap_content"
+                    android:layout_width="0px" android:layout_weight="1" android:editable="false" android:hint="Date"
+                    />
+            <!--<Button android:id="@+id/actTime" android:layout_height="wrap_content"-->
+            <!--android:layout_width="0px" android:layout_weight="1" android:editable="false" android:hint="Time"-->
+            <!--android:singleLine="true"/>-->
+            <EditText android:id="@+id/activityDuration" android:layout_width="0px" android:layout_weight="1"
+                      android:hint="Duration(min)" android:inputType="number"/>
+
+        </TableRow>
+
+        <!--<TableRow>-->
+        <!--</TableRow>-->
+
+
+        <!--<TableRow>-->
+            <!--<TextView android:layout_width="0px" android:layout_weight="1"-->
+                      <!--android:text=""/>-->
+            <!--<TextView android:layout_width="0px" android:layout_weight="1"-->
+                      <!--android:text=""/>-->
+        <!--</TableRow>-->
+
+
+        <TableRow android:layout_marginTop="5px">
+            <TextView android:layout_marginLeft="3px"
+                      android:layout_width="0px" android:layout_weight="1"
+                      android:text="Calories Spent" android:textSize="14dip"/>
+            <TextView android:id="@+id/activityCalories" android:layout_width="0px" android:layout_weight="1"
+                      android:text="0" android:textSize="14dip"/>
+        </TableRow>
+
+
+
+        <!--<TableRow>-->
+        <!--<TextView android:text="" android:layout_width="fill_parent"/>-->
+        <!--<TextView android:text="" android:layout_width="fill_parent"/>-->
+        <!--</TableRow>-->
+        <!--<TableRow>-->
+        <!--<LinearLayout>-->
+        <!--<Button android:id="@+id/saveInvBtn" android:text="Save" android:drawableLeft="@drawable/save"-->
+        <!--android:layout_height="wrap_content" android:layout_width="wrap_content"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<TextView android:text="" android:layout_width="fill_parent"/>-->
+        <!--</TableRow>-->
+    </TableLayout>
+</ScrollView>

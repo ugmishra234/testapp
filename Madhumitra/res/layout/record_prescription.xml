@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:scrollbars="vertical">
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+            >
+
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchColumns="*">
+
+            <TableRow  android:layout_marginTop="2px">
+                <Spinner android:id="@+id/docSpinner"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="2px">
+                <!--<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">-->
+                    <Button android:id="@+id/visitDate" android:layout_height="wrap_content"
+                              android:editable="false"
+                              android:hint="Prescription Date"
+                              android:singleLine="true" android:layout_width="0px" android:layout_weight="1"/>
+                <!--</LinearLayout>-->
+            </TableRow>
+        </TableLayout>
+
+
+        <TableLayout android:layout_width="fill_parent"
+                     android:layout_height="wrap_content">
+            <TableRow layout_span="2"  android:layout_marginBottom="2px">
+                <Button android:id="@+id/addPrescriptionItemBtn" android:text="Add Drug Entry"
+                        android:drawableLeft="@drawable/add" android:textColor="@android:color/white"
+                        android:paddingLeft="1px"
+                        android:layout_height="wrap_content" android:layout_width="wrap_content"
+                        android:background="@android:color/black"
+                        />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout android:id="@+id/prescriptionTableLayout" android:layout_width="fill_parent"
+                     android:layout_height="wrap_content">
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

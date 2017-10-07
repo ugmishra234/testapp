@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="Timings">
+        <EditTextPreference
+                android:name="Morning Time"
+                android:defaultValue="8:00am"
+                android:inputType="time"
+                android:title="Morning Time"
+                android:key="morningTimePref"/>
+        <EditTextPreference
+                android:name="Afternoon Time"
+                android:defaultValue="12:00pm"
+                android:inputType="time"
+                android:title="Afternoon Time"
+                android:key="noonTimePref"/>
+        <EditTextPreference
+                android:name="Evening Time"
+                android:defaultValue="4:30pm"
+                android:inputType="time"
+                android:title="Evening Time"
+                android:key="evenTimePref"/>
+        <EditTextPreference
+                android:name="Night Time"
+                android:defaultValue="8:00pm"
+                android:inputType="time"
+                android:title="Night Time"
+                android:key="nightTimePref"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,178 @@
+<resources>
+    <string-array name="meal_beverages_items">
+        <item>Beer Light</item>
+        <item>Beer Regular</item>
+        <item>Bloody Mary</item>
+        <item>Bourbon and soda</item>
+        <item>Brandy</item>
+        <item>Champagne</item>
+        <item>Diaquiri</item>
+        <item>Diaquiri Frozen</item>
+        <item>Gin</item>
+        <item>Gin and Tonic</item>
+        <item>Manhattan</item>
+        <item>Martini</item>
+        <item>Neera</item>
+        <item>Pina Colada</item>
+        <item>Port</item>
+        <item>Red Table wine</item>
+        <item>Rose wine</item>
+        <item>Rum</item>
+        <item>Screw Driver</item>
+        <item>Sherry dry</item>
+        <item>Sherry Medium</item>
+        <item>Sherry Sweet</item>
+        <item>Sweet white wine</item>
+        <item>Table wine Dry</item>
+        <item>Tequila Sunrise</item>
+        <item>Toddy Fermented</item>
+        <item>Toddy Sweet</item>
+        <item>Tom Collins</item>
+        <item>Vermouth Dry</item>
+        <item>Vermouth Sweet</item>
+        <item>Vodka</item>
+        <item>Whisky</item>
+        <item>White Dry wine</item>
+        <item>White table wine</item>
+        <item>White wine Demi-sec</item>
+        <item>Cream de menthe</item>
+        <item>Diet Coke</item>
+        <item>Pepsi</item>
+        <item>Diet Pepsi</item>
+        <item>Thums Up</item>
+        <item>Fanta</item>
+        <item>Mirinda</item>
+        <item>Limca</item>
+        <item>Sprite</item>
+        <item>Coconut water</item>
+        <item>Coconut Milk</item>
+        <item>Energee</item>
+        <item>Papaya juice</item>
+        <item>Pineapple juice</item>
+        <item>Pomogranate</item>
+        <item>Carrot</item>
+        <item>Watermelon</item>
+        <item>Orange</item>
+        <item>Mango</item>
+        <item>Tomato</item>
+        <item>Sweet Lime</item>
+    </string-array>
+
+    <string-array name="meal_beverages_item_quant_unit_description">
+        <item>No of bottles(360 ml)</item>
+        <item>No of bottles(360 ml)</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of glasses</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of servings</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of servings</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of servings</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of servings</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of glasses ( 30 ml)</item>
+        <item>Number of bottles</item>
+        <item>Number of bottles</item>
+        <item>Number of bottles</item>
+        <item>Number of bottles</item>
+        <item>Number of bottles</item>
+        <item>Number of bottles</item>
+        <item>Number of bottles</item>
+        <item>Number of bottles</item>
+        <item>No. of glasses (100ml)</item>
+        <item>No. of glasses (100ml)</item>
+        <item>No. of bottles (200 ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+        <item>No. of glasses (250ml)</item>
+    </string-array>
+
+    <integer-array name="meal_beverages_item_calories">
+        <item>100</item>
+        <item>150</item>
+        <item>116</item>
+        <item>104</item>
+        <item>70</item>
+        <item>105</item>
+        <item>112</item>
+        <item>308</item>
+        <item>107</item>
+        <item>171</item>
+        <item>128</item>
+        <item>156</item>
+        <item>90</item>
+        <item>262</item>
+        <item>167</item>
+        <item>74</item>
+        <item>73</item>
+        <item>105</item>
+        <item>181</item>
+        <item>116</item>
+        <item>124</item>
+        <item>140</item>
+        <item>94</item>
+        <item>87</item>
+        <item>189</item>
+        <item>44</item>
+        <item>146</item>
+        <item>122</item>
+        <item>128</item>
+        <item>161</item>
+        <item>70</item>
+        <item>118</item>
+        <item>66</item>
+        <item>70</item>
+        <item>75</item>
+        <item>125</item>
+        <item>1</item>
+        <item>144</item>
+        <item>1</item>
+        <item>144</item>
+        <item>155</item>
+        <item>160</item>
+        <item>155</item>
+        <item>142</item>
+        <item>48</item>
+        <item>430</item>
+        <item>167</item>
+        <item>92</item>
+        <item>105</item>
+        <item>202</item>
+        <item>111</item>
+        <item>52</item>
+        <item>182</item>
+        <item>188</item>
+        <item>95</item>
+        <item>160</item>
+    </integer-array>
+</resources>

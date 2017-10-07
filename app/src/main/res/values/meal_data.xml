@@ -1,0 +1,2447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="meal_items">
+        <item>Beer Light</item>
+        <item>Beer Regular</item>
+        <item>Whisky</item>
+        <item>Rum</item>
+        <item>Gin</item>
+        <item>Table wine Dry</item>
+        <item>Red Table wine</item>
+        <item>Rose wine</item>
+        <item>White table wine</item>
+        <item>White Dry wine</item>
+        <item>White wine Demi-sec</item>
+        <item>Sweet white wine</item>
+        <item>Sherry dry</item>
+        <item>Sherry Medium</item>
+        <item>Sherry Sweet</item>
+        <item>Vermouth Dry</item>
+        <item>Vermouth Sweet</item>
+        <item>Port</item>
+        <item>Toddy Fermented</item>
+        <item>Toddy Sweet</item>
+        <item>Neera</item>
+        <item>Champagne</item>
+        <item>Bloody Mary</item>
+        <item>Pina Colada</item>
+        <item>Screw Driver</item>
+        <item>Martini</item>
+        <item>Manhattan</item>
+        <item>Diaquiri</item>
+        <item>Diaquiri Frozen</item>
+        <item>Tom Collins</item>
+        <item>Tequila Sunrise</item>
+        <item>Gin and Tonic</item>
+        <item>Bourbon and soda</item>
+        <item>Brandy</item>
+        <item>Vodka</item>
+        <item>Bisi Bele huli anna</item>
+        <item>Chicken Fried rice</item>
+        <item>Veg fried rice</item>
+        <item>Coconut Rice</item>
+        <item>Curd Rice</item>
+        <item>Peas pulav</item>
+        <item>Khichadi</item>
+        <item>Lemon Rice</item>
+        <item>Masoor biryani</item>
+        <item>Navratan Pulav</item>
+        <item>Chicken biryani</item>
+        <item>Prawns Pulav</item>
+        <item>Puliodarai</item>
+        <item>Sabudana Khichadi</item>
+        <item>Sontho</item>
+        <item>Veg Biryani</item>
+        <item>Veg Pulav</item>
+        <item>Brown Rice Boiled</item>
+        <item>White rice poiled</item>
+        <item>Rice Flaked</item>
+        <item>Rice Puffed</item>
+        <item>Rice Machine polished</item>
+        <item>Rice Hand pounded</item>
+        <item>Bajra Roti Small</item>
+        <item>Jawar Roti Small</item>
+        <item>Wheat Chapati Thin</item>
+        <item>Wheat Puri Small</item>
+        <item>Puri Big</item>
+        <item>Rumali Roti without oil</item>
+        <item>Phulka</item>
+        <item>Tandoor roti</item>
+        <item>Tandoor nan</item>
+        <item>Bajari Bhakari</item>
+        <item>Thepla Plain</item>
+        <item>Thepla Methi</item>
+        <item>Tandoor Nan with butter</item>
+        <item>Butter nan</item>
+        <item>Makai Roti</item>
+        <item>Kulcha</item>
+        <item>Wheat Bhakari</item>
+        <item>Paratha</item>
+        <item>Stuffed paratha</item>
+        <item>Bhatura</item>
+        <item>Khakra</item>
+        <item>White Bread Small slice</item>
+        <item>White Bread Large Slice</item>
+        <item>Whole Bread Small slice</item>
+        <item>Whole Bread Large Slice</item>
+        <item>Rye Bread Slice</item>
+        <item>Pita Bread White</item>
+        <item>Pita Bread Whole</item>
+        <item>Macaroni Boiled</item>
+        <item>Macaroni with Cheese</item>
+        <item>Macaroni Creamed</item>
+        <item>Spaghetti White Boiled</item>
+        <item>Spaghetti in Tomato sauce</item>
+        <item>Spaghetti Bolognese</item>
+        <item>Spaghetti whole wheat</item>
+        <item>Pav</item>
+        <item>Idali Small</item>
+        <item>Idali Big</item>
+        <item>Rava Idali</item>
+        <item>Sabudana Idali</item>
+        <item>Butter Idali</item>
+        <item>Fry Idali</item>
+        <item>Butter Dosa Plain</item>
+        <item>Ghee Dosa</item>
+        <item>Mysore Sada Dosa</item>
+        <item>rava Sada Dosa</item>
+        <item>Sada Dosa</item>
+        <item>Butter uttappa</item>
+        <item>Cheese Uttappa</item>
+        <item>Ghee Uttappa</item>
+        <item>plain Uttappa</item>
+        <item>Tomato Uttappa</item>
+        <item>Onion Uttappa</item>
+        <item>Rava masala Dosa</item>
+        <item>Mysore Masala Dosa</item>
+        <item>Masala Dosa</item>
+        <item>paper Dosa</item>
+        <item>Upama</item>
+        <item>Pongal</item>
+        <item>Medu Vada</item>
+        <item>Rasam Vada</item>
+        <item>Patrani Macchi</item>
+        <item>mandeli Fry</item>
+        <item>Mandeli Curry</item>
+        <item>Mullet Stew</item>
+        <item>Mullet Fry</item>
+        <item>Mullet Curry</item>
+        <item>Ghol Stew</item>
+        <item>Ghol Fry</item>
+        <item>Ghol Molee</item>
+        <item>Ghol Curry</item>
+        <item>Ravas stew</item>
+        <item>ravas Fry</item>
+        <item>ravas Curry</item>
+        <item>Seer Stew</item>
+        <item>Seer Fry</item>
+        <item>Seer Curry</item>
+        <item>Shrimp rice</item>
+        <item>Shrimp Dry</item>
+        <item>Shrimp Curry</item>
+        <item>Bombay Duck Fry</item>
+        <item>Bombay Duck Curry</item>
+        <item>Crab Stew</item>
+        <item>Crab Sdry</item>
+        <item>Crab Curry</item>
+        <item>lobster Boiled</item>
+        <item>Lobster fry</item>
+        <item>Lobster Curry</item>
+        <item>Moushi Fry</item>
+        <item>Moushi Curry</item>
+        <item>Prawns Stew</item>
+        <item>Chilly prawns</item>
+        <item>Prawns pilav</item>
+        <item>Sweet and sour prawns</item>
+        <item>Prawns Vindaloo</item>
+        <item>Prawns cutlet</item>
+        <item>Prawns sukha</item>
+        <item>Prawns curry</item>
+        <item>Sardine fry</item>
+        <item>Sardine curry</item>
+        <item>Sardine stew</item>
+        <item>Shark Fry</item>
+        <item>Surmai stwe</item>
+        <item>Surmai fry</item>
+        <item>Surmai Curry</item>
+        <item>Fish Cutlet</item>
+        <item>Fish Fry</item>
+        <item>Fish Curry</item>
+        <item>Crab Alaska King one leg</item>
+        <item>Crab alaska King steamed</item>
+        <item>Catfish Fry</item>
+        <item>Scallops fry</item>
+        <item>Sacllops Steamed</item>
+        <item>Tuna Steamed</item>
+        <item>Aaloo Mutter</item>
+        <item>Aloo Capsicum Sabzi</item>
+        <item>Aaloo Poshto (Bengali Style)</item>
+        <item>Akbari Paneer</item>
+        <item>Aloo Gobhi Sabzi</item>
+        <item>Aloo Methi</item>
+        <item>Baked Brinjal in Tomato Sauce</item>
+        <item>Baked Potato</item>
+        <item>Baked Vegetables</item>
+        <item>Beans Subzi</item>
+        <item>Besan and Spinach Paranthas</item>
+        <item>Black Channa Curry</item>
+        <item>Boiled rice</item>
+        <item>Brinjal Bhurta</item>
+        <item>Brown Rice</item>
+        <item>Brussels Veg Sprouts Fry</item>
+        <item>Cabbage and Pea Sabzi</item>
+        <item>Cabbage Kofta Curry</item>
+        <item>Carrot cucumber beet in hung curd</item>
+        <item>Carrots Subzi</item>
+        <item>Cauliflower Kofta Curry</item>
+        <item>Cauliflower peas subzi</item>
+        <item>Channa Dal with Ghia</item>
+        <item>Chole</item>
+        <item>Dal tadka</item>
+        <item>Dry Washed Urad</item>
+        <item>Dum Aloo</item>
+        <item>Dum Arbi</item>
+        <item>Gajar Methi</item>
+        <item>Ghia Kofta Curry</item>
+        <item>Gobhi Musallam</item>
+        <item>Gujrati Khandvi</item>
+        <item>Kadhai Paneer</item>
+        <item>Kamal Kakri Curry</item>
+        <item>Kamal Kakri Kofta Curry</item>
+        <item>Karhi (Kadhi)</item>
+        <item>Kathal Subji</item>
+        <item>Keerai Masiyal (Greens Garlic Mashed curry)</item>
+        <item>Khatta Channa</item>
+        <item>Khumb Kali Mirch (Pepper Mushroom Fry)</item>
+        <item>Legumes with Husk (Moong</item>
+        <item>Lemon Rice</item>
+        <item>Mango Lassi</item>
+        <item>Masala Bread (North Indian Style Bread Upma)</item>
+        <item>Masala Dosa</item>
+        <item>Matar Mushroom</item>
+        <item>Methi Chaman</item>
+        <item>Mixed Dal</item>
+        <item>Mixed Vegetable Pulao</item>
+        <item>Moti Mahal Dal</item>
+        <item>Mushroom Pulao</item>
+        <item>Nan</item>
+        <item>Navratan Pulao</item>
+        <item>Palak Paneer</item>
+        <item>Paneer Curry</item>
+        <item>Paneer in Butter Sauce</item>
+        <item>Paneer Kathi Rolls</item>
+        <item>Paneer Makhana Korma</item>
+        <item>Paneer Pulao</item>
+        <item>Paneer Tikkis (Cottage Cheese Cutlets)</item>
+        <item>Papad Curry (Rajasthan Style Poppadum Curry)</item>
+        <item>Paruppu Urappu Adai (Dal Pancake)</item>
+        <item>Pea Curry</item>
+        <item>Pea Kofta Curry</item>
+        <item>Pea Paneer Curry</item>
+        <item>Pea Potato Curry</item>
+        <item>Pea Vadi Curry</item>
+        <item>Peanut Pulao</item>
+        <item>Pindi Channa</item>
+        <item>Plain Pulao</item>
+        <item>Poories</item>
+        <item>Potato Stuffed Poories</item>
+        <item>Rava Idli</item>
+        <item>Raw Banana Kofta Curry</item>
+        <item>Ridge gourd (turai) Subzi</item>
+        <item>Sambhar</item>
+        <item>Sarson ka Saag</item>
+        <item>Sauteed green beans with tofu</item>
+        <item>Sindhi Kadhi</item>
+        <item>Spinach Dhokla</item>
+        <item>Spinach Kofta Curry</item>
+        <item>Spinach Paneer Kofta Curry</item>
+        <item>Spinach/Methi Poories</item>
+        <item>Sprouted Moong Pulao</item>
+        <item>Strawberry Jelly</item>
+        <item>Stuffed Bhindi</item>
+        <item>Stuffed Brinjals</item>
+        <item>Stuffed Capsicum</item>
+        <item>Stuffed Karelas</item>
+        <item>Stuffed Lauki</item>
+        <item>Stuffed Tinda</item>
+        <item>Stuffed Tomatoes</item>
+        <item>Sweet Rice</item>
+        <item>Tandoori Gobhi</item>
+        <item>Tandoori Parantha</item>
+        <item>Tawa Vegetables</item>
+        <item>Turmeric Tea</item>
+        <item>Uppudu Pindi (Rice Flour Upma)</item>
+        <item>Vegetable Bonda (Mix Veg Dumplings)</item>
+        <item>Aloo baigan</item>
+        <item>Aloo Mutter</item>
+        <item>Aloo Curry</item>
+        <item>Baigan Bharta</item>
+        <item>Bhindi</item>
+        <item>Cabbage</item>
+        <item>Chole</item>
+        <item>Curry (Besan curry)</item>
+        <item>Gattek Ki Subjji</item>
+        <item>Aloo Methi</item>
+        <item>Paneer Mutter</item>
+        <item>Kaddu</item>
+        <item>Rajma</item>
+        <item>Shahi Paneer</item>
+        <item>Allo Simla Mirch</item>
+        <item>Stuffed Tomatoes</item>
+        <item>Ridge gourd (turai) Subzi</item>
+        <item>Veg Jafrani</item>
+        <item>Veg Kofta curry</item>
+        <item>Veg Korma</item>
+        <item>Arhar Dal</item>
+        <item>Channa Dal with Ghia</item>
+        <item>Maa Ki daal</item>
+        <item>Moong Dal</item>
+        <item>Massor Daal</item>
+        <item>Urad Daal</item>
+        <item>Dal Dhokli</item>
+        <item>Boiled rice</item>
+        <item>Pulao</item>
+        <item>Khichari</item>
+        <item>Milk Buffalo</item>
+        <item>Milk Cow</item>
+        <item>Curd Cow</item>
+        <item>Butter Milk</item>
+        <item>Skimmed milk</item>
+        <item>Paneer cow</item>
+        <item>Paneer Buffalo</item>
+        <item>Khoya Whole</item>
+        <item>Khoya Skimmed</item>
+        <item>Cheese</item>
+        <item>Lassi</item>
+        <item>Samosa</item>
+        <item>Besan laddu</item>
+        <item>Gajjar Halava</item>
+        <item>Coconut Burfi</item>
+        <item>kaju Rolls</item>
+        <item>Kheer (Rice)</item>
+        <item>Sabudana Khichadi</item>
+        <item>Chane Ghashi Kokani style</item>
+        <item>Sarson ka Saag</item>
+        <item>Unripe mango curry</item>
+        <item>Kolhapuri Misal</item>
+        <item>Kothimbir Pat wadi</item>
+        <item>Moong Dal halava</item>
+        <item>Coffee - sugar-milk</item>
+        <item>Coffee Capuccino-sugar</item>
+        <item>Coffee = milk - sugar</item>
+        <item>Black tea - sugar</item>
+        <item>Herbal tea - sugar</item>
+        <item>Tea + Milk - sugar</item>
+        <item>Tea + Skimmed milk - sugar</item>
+        <item>Cheese Brie</item>
+        <item>Cheese camembert</item>
+        <item>Cheese Cheddar</item>
+        <item>Cheese Cottage</item>
+        <item>Cheese Cream</item>
+        <item>Cheese danish Blue</item>
+        <item>Cheese edam</item>
+        <item>Cheese feta</item>
+        <item>Cheese gouda</item>
+        <item>Cheese parmesan</item>
+        <item>Cheese hard</item>
+        <item>Cheese soft (Full fat)</item>
+        <item>Cheese soft (Medium fat)</item>
+        <item>Cheese spread</item>
+        <item>Chees stilton blue</item>
+        <item>Cheese white</item>
+        <item>Cheese mozzarella</item>
+        <item>Milk Buffalo Whole</item>
+        <item>Milk Buffalo Skimmed</item>
+        <item>Milk Cow Whole</item>
+        <item>Milk Goat whole</item>
+        <item>Paneer Buffalo Milk</item>
+        <item>Paneer Cow Milk</item>
+        <item>Buttermilk</item>
+        <item>Lassi Medium thick salty</item>
+        <item>Lassi Medium thick sweet</item>
+        <item>Curd Cow Milk</item>
+        <item>Khoa Skimmed milk</item>
+        <item>Khoa cow milk</item>
+        <item>Khoa Buffalo milk</item>
+        <item>Bournvita with milk</item>
+        <item>Drinking chocolate mith milk</item>
+        <item>Horlick malted with milk</item>
+        <item>Ovaltine with milk</item>
+        <item>Milo with milk</item>
+        <item>Yoghurt plain</item>
+        <item>Yoghurt plain</item>
+        <item>Yoghurt Low fat flavoured</item>
+        <item>Butter</item>
+        <item>Butter Spread</item>
+        <item>Butter Spread Low fat</item>
+        <item>Cream clotted</item>
+        <item>Cream Sour</item>
+        <item>Cream whipped</item>
+        <item>Margarine</item>
+        <item>Mayonnaise</item>
+        <item>Raita Cucumber</item>
+        <item>Raita Onion</item>
+        <item>Raota Potato</item>
+        <item>Raita Tomato</item>
+        <item>Raita Mixed</item>
+        <item>Raita Boondi</item>
+        <item>Pineapple Milk shake</item>
+        <item>Lichee</item>
+        <item>Strawberry</item>
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Sitaphal</item>
+        <item>Apple</item>
+        <item>Chickoo</item>
+        <item>Anjir</item>
+        <item>Pineapple Milk shake + Ice cream one scoop</item>
+        <item>Lichee + Ice cream</item>
+        <item>Strawberry + Ice cream</item>
+        <item>Banana + Ice cream</item>
+        <item>Mnago + Ice cream</item>
+        <item>Sitaphal + Ice cream</item>
+        <item>apple + Ice cream</item>
+        <item>Anjir + Ice cream</item>
+        <item>Chikoo + Ice cream</item>
+        <!--meal data-->
+        <item>Beer Light</item>
+        <item>Beer Regular</item>
+        <item>Whisky</item>
+        <item>Rum</item>
+        <item>Gin</item>
+        <item>Table wine Dry</item>
+        <item>Red Table wine</item>
+        <item>Rose wine</item>
+        <item>White table wine</item>
+        <item>White Dry wine</item>
+        <item>White wine Demi-sec</item>
+        <item>Sweet white wine</item>
+        <item>Sherry dry</item>
+        <item>Sherry Medium</item>
+        <item>Sherry Sweet</item>
+        <item>Vermouth Dry</item>
+        <item>Vermouth Sweet</item>
+        <item>Port</item>
+        <item>Toddy Fermented</item>
+        <item>Toddy Sweet</item>
+        <item>Neera</item>
+        <item>Champagne</item>
+        <item>Bloody Mary</item>
+        <item>Pina Colada</item>
+        <item>Screw Driver</item>
+        <item>Martini</item>
+        <item>Manhattan</item>
+        <item>Diaquiri</item>
+        <item>Diaquiri Frozen</item>
+        <item>Tom Collins</item>
+        <item>Tequila Sunrise</item>
+        <item>Gin and Tonic</item>
+        <item>Bourbon and soda</item>
+        <item>Brandy</item>
+        <item>Vodka</item>
+        <!--Beverages-->
+        <item>Bisi Bele huli anna</item>
+        <item>Chicken Fried rice</item>
+        <item>Veg fried rice</item>
+        <item>Coconut Rice</item>
+        <item>Curd Rice</item>
+        <item>Peas pulav</item>
+        <item>Khichadi</item>
+        <item>Lemon Rice</item>
+        <item>Masoor biryani</item>
+        <item>Navratan Pulav</item>
+        <item>Chicken biryani</item>
+        <item>Prawns Pulav</item>
+        <item>Puliodarai</item>
+        <item>Sabudana Khichadi</item>
+        <item>Sontho</item>
+        <item>Veg Biryani</item>
+        <item>Veg Pulav</item>
+        <item>Brown Rice Boiled</item>
+        <item>White rice poiled</item>
+        <item>Rice Flaked</item>
+        <item>Rice Puffed</item>
+        <item>Rice Machine polished</item>
+        <item>Rice Hand pounded</item>
+        <item>Bajra Roti Small</item>
+        <item>Jawar Roti Small</item>
+        <item>Wheat Chapati Thin</item>
+        <item>Wheat Puri Small</item>
+        <item>Puri Big</item>
+        <item>Rumali Roti without oil</item>
+        <item>Phulka</item>
+        <item>Tandoor roti</item>
+        <item>Tandoor nan</item>
+        <item>Bajari Bhakari</item>
+        <item>Thepla Plain</item>
+        <item>Thepla Methi</item>
+        <item>Tandoor Nan with butter</item>
+        <item>Butter nan</item>
+        <item>Makai Roti</item>
+        <item>Kulcha</item>
+        <item>Wheat Bhakari</item>
+        <item>Paratha</item>
+        <item>Stuffed paratha</item>
+        <item>Bhatura</item>
+        <item>Khakra</item>
+        <item>White Bread Small slice</item>
+        <item>White Bread Large Slice</item>
+        <item>Whole Bread Small slice</item>
+        <item>Whole Bread Large Slice</item>
+        <item>Rye Bread Slice</item>
+        <item>Pita Bread White</item>
+        <item>Pita Bread Whole</item>
+        <item>Macaroni Boiled</item>
+        <item>Macaroni with Cheese</item>
+        <item>Macaroni Creamed</item>
+        <item>Spaghetti White Boiled</item>
+        <item>Spaghetti in Tomato sauce</item>
+        <item>Spaghetti Bolognese</item>
+        <item>Spaghetti whole wheat</item>
+        <item>Pav</item>
+        <item>Idali Small</item>
+        <item>Idali Big</item>
+        <item>Rava Idali</item>
+        <item>Sabudana Idali</item>
+        <item>Butter Idali</item>
+        <item>Fry Idali</item>
+        <item>Butter Dosa Plain</item>
+        <item>Ghee Dosa</item>
+        <item>Mysore Sada Dosa</item>
+        <item>rava Sada Dosa</item>
+        <item>Sada Dosa</item>
+        <item>Butter uttappa</item>
+        <item>Cheese Uttappa</item>
+        <item>Ghee Uttappa</item>
+        <item>plain Uttappa</item>
+        <item>Tomato Uttappa</item>
+        <item>Onion Uttappa</item>
+        <item>Rava masala Dosa</item>
+        <item>Mysore Masala Dosa</item>
+        <item>Masala Dosa</item>
+        <item>paper Dosa</item>
+        <item>Upama</item>
+        <item>Pongal</item>
+        <item>Medu Vada</item>
+        <item>Rasam Vada</item>
+        <!--Cereals-->
+        <item>Patrani Macchi</item>
+        <item>mandeli Fry</item>
+        <item>Mandeli Curry</item>
+        <item>Mullet Stew</item>
+        <item>Mullet Fry</item>
+        <item>Mullet Curry</item>
+        <item>Ghol Stew</item>
+        <item>Ghol Fry</item>
+        <item>Ghol Molee</item>
+        <item>Ghol Curry</item>
+        <item>Ravas stew</item>
+        <item>ravas Fry</item>
+        <item>ravas Curry</item>
+        <item>Seer Stew</item>
+        <item>Seer Fry</item>
+        <item>Seer Curry</item>
+        <item>Shrimp rice</item>
+        <item>Shrimp Dry</item>
+        <item>Shrimp Curry</item>
+        <item>Bombay Duck Fry</item>
+        <item>Bombay Duck Curry</item>
+        <item>Crab Stew</item>
+        <item>Crab Sdry</item>
+        <item>Crab Curry</item>
+        <item>lobster Boiled</item>
+        <item>Lobster fry</item>
+        <item>Lobster Curry</item>
+        <item>Moushi Fry</item>
+        <item>Moushi Curry</item>
+        <item>Prawns Stew</item>
+        <item>Chilly prawns</item>
+        <item>Prawns pilav</item>
+        <item>Sweet and sour prawns</item>
+        <item>Prawns Vindaloo</item>
+        <item>Prawns cutlet</item>
+        <item>Prawns sukha</item>
+        <item>Prawns curry</item>
+        <item>Sardine fry</item>
+        <item>Sardine curry</item>
+        <item>Sardine stew</item>
+        <item>Shark Fry</item>
+        <item>Surmai stwe</item>
+        <item>Surmai fry</item>
+        <item>Surmai Curry</item>
+        <item>Fish Cutlet</item>
+        <item>Fish Fry</item>
+        <item>Fish Curry</item>
+        <item>Crab Alaska King one leg</item>
+        <item>Crab alaska King steamed</item>
+        <item>Catfish Fry</item>
+        <item>Scallops fry</item>
+        <item>Sacllops Steamed</item>
+        <item>Tuna Steamed</item>
+        <!--Fish-->
+        <item>Aaloo Mutter</item>
+        <item>Aloo Capsicum Sabzi</item>
+        <item>Aaloo Poshto (Bengali Style)</item>
+        <item>Akbari Paneer</item>
+        <item>Aloo Gobhi Sabzi</item>
+        <item>Aloo Methi</item>
+        <item>Baked Brinjal in Tomato Sauce</item>
+        <item>Baked Potato</item>
+        <item>Baked Vegetables</item>
+        <item>Beans Subzi</item>
+        <item>Besan and Spinach Paranthas</item>
+        <item>Black Channa Curry</item>
+        <item>Boiled rice</item>
+        <item>Brinjal Bhurta</item>
+        <item>Brown Rice</item>
+        <item>Brussels Veg Sprouts Fry</item>
+        <item>Cabbage and Pea Sabzi</item>
+        <item>Cabbage Kofta Curry</item>
+        <item>Carrot cucumber beet in hung curd</item>
+        <item>Carrots Subzi</item>
+        <item>Cauliflower Kofta Curry</item>
+        <item>Cauliflower peas subzi</item>
+        <item>Channa Dal with Ghia</item>
+        <item>Chole</item>
+        <item>Dal tadka</item>
+        <item>Dry Washed Urad</item>
+        <item>Dum Aloo</item>
+        <item>Dum Arbi</item>
+        <item>Gajar Methi</item>
+        <item>Ghia Kofta Curry</item>
+        <item>Gobhi Musallam</item>
+        <item>Gujrati Khandvi</item>
+        <item>Kadhai Paneer</item>
+        <item>Kamal Kakri Curry</item>
+        <item>Kamal Kakri Kofta Curry</item>
+        <item>Karhi (Kadhi)</item>
+        <item>Kathal Subji</item>
+        <item>Keerai Masiyal (Greens Garlic Mashed curry)</item>
+        <item>Khatta Channa</item>
+        <item>Khumb Kali Mirch (Pepper Mushroom Fry)</item>
+        <item>Legumes with Husk (Moong</item>
+        <item>Lemon Rice</item>
+        <item>Mango Lassi</item>
+        <item>Masala Bread (North Indian Style Bread Upma)</item>
+        <item>Masala Dosa</item>
+        <item>Matar Mushroom</item>
+        <item>Methi Chaman</item>
+        <item>Mixed Dal</item>
+        <item>Mixed Vegetable Pulao</item>
+        <item>Moti Mahal Dal</item>
+        <item>Mushroom Pulao</item>
+        <item>Nan</item>
+        <item>Navratan Pulao</item>
+        <item>Palak Paneer</item>
+        <item>Paneer Curry</item>
+        <item>Paneer in Butter Sauce</item>
+        <item>Paneer Kathi Rolls</item>
+        <item>Paneer Makhana Korma</item>
+        <item>Paneer Pulao</item>
+        <item>Paneer Tikkis (Cottage Cheese Cutlets)</item>
+        <item>Papad Curry (Rajasthan Style Poppadum Curry)</item>
+        <item>Paruppu Urappu Adai (Dal Pancake)</item>
+        <item>Pea Curry</item>
+        <item>Pea Kofta Curry</item>
+        <item>Pea Paneer Curry</item>
+        <item>Pea Potato Curry</item>
+        <item>Pea Vadi Curry</item>
+        <item>Peanut Pulao</item>
+        <item>Pindi Channa</item>
+        <item>Plain Pulao</item>
+        <item>Poories</item>
+        <item>Potato Stuffed Poories</item>
+        <item>Rava Idli</item>
+        <item>Raw Banana Kofta Curry</item>
+        <item>Ridge gourd (turai) Subzi</item>
+        <item>Sambhar</item>
+        <item>Sarson ka Saag</item>
+        <item>Sauteed green beans with tofu</item>
+        <item>Sindhi Kadhi</item>
+        <item>Spinach Dhokla</item>
+        <item>Spinach Kofta Curry</item>
+        <item>Spinach Paneer Kofta Curry</item>
+        <item>Spinach/Methi Poories</item>
+        <item>Sprouted Moong Pulao</item>
+        <item>Strawberry Jelly</item>
+        <item>Stuffed Bhindi</item>
+        <item>Stuffed Brinjals</item>
+        <item>Stuffed Capsicum</item>
+        <item>Stuffed Karelas</item>
+        <item>Stuffed Lauki</item>
+        <item>Stuffed Tinda</item>
+        <item>Stuffed Tomatoes</item>
+        <item>Sweet Rice</item>
+        <item>Tandoori Gobhi</item>
+        <item>Tandoori Parantha</item>
+        <item>Tawa Vegetables</item>
+        <item>Turmeric Tea</item>
+        <item>Uppudu Pindi (Rice Flour Upma)</item>
+        <item>Vegetable Bonda (Mix Veg Dumplings)</item>
+        <item>Aloo baigan</item>
+        <item>Aloo Mutter</item>
+        <item>Aloo Curry</item>
+        <item>Baigan Bharta</item>
+        <item>Bhindi</item>
+        <item>Cabbage</item>
+        <item>Chole</item>
+        <item>Curry (Besan curry)</item>
+        <item>Gattek Ki Subjji</item>
+        <item>Aloo Methi</item>
+        <item>Paneer Mutter</item>
+        <item>Kaddu</item>
+        <item>Rajma</item>
+        <item>Shahi Paneer</item>
+        <item>Allo Simla Mirch</item>
+        <item>Stuffed Tomatoes</item>
+        <item>Ridge gourd (turai) Subzi</item>
+        <item>Veg Jafrani</item>
+        <item>Veg Kofta curry</item>
+        <item>Veg Korma</item>
+        <item>Arhar Dal</item>
+        <item>Channa Dal with Ghia</item>
+        <item>Maa Ki daal</item>
+        <item>Moong Dal</item>
+        <item>Massor Daal</item>
+        <item>Urad Daal</item>
+        <item>Dal Dhokli</item>
+        <item>Boiled rice</item>
+        <item>Pulao</item>
+        <item>Khichari</item>
+        <item>Milk Buffalo</item>
+        <item>Milk Cow</item>
+        <item>Curd Cow</item>
+        <item>Butter Milk</item>
+        <item>Skimmed milk</item>
+        <item>Paneer cow</item>
+        <item>Paneer Buffalo</item>
+        <item>Khoya Whole</item>
+        <item>Khoya Skimmed</item>
+        <item>Cheese</item>
+        <item>Lassi</item>
+        <item>Samosa</item>
+        <item>Besan laddu</item>
+        <item>Gajjar Halava</item>
+        <item>Coconut Burfi</item>
+        <item>kaju Rolls</item>
+        <item>Kheer (Rice)</item>
+        <item>Sabudana Khichadi</item>
+        <item>Chane Ghashi Kokani style</item>
+        <item>Sarson ka Saag</item>
+        <item>Unripe mango curry</item>
+        <item>Kolhapuri Misal</item>
+        <item>Kothimbir Pat wadi</item>
+        <item>Moong Dal halava</item>
+        <!--Food n Calories-->
+        <item>Coffee - sugar-milk</item>
+        <item>Coffee Capuccino-sugar</item>
+        <item>Coffee = milk - sugar</item>
+        <item>Black tea - sugar</item>
+        <item>Herbal tea - sugar</item>
+        <item>Tea + Milk - sugar</item>
+        <item>Tea + Skimmed milk - sugar</item>
+        <!--Hot Drinks-->
+        <item>Cheese Brie</item>
+        <item>Cheese camembert</item>
+        <item>Cheese Cheddar</item>
+        <item>Cheese Cottage</item>
+        <item>Cheese Cream</item>
+        <item>Cheese danish Blue</item>
+        <item>Cheese edam</item>
+        <item>Cheese feta</item>
+        <item>Cheese gouda</item>
+        <item>Cheese parmesan</item>
+        <item>Cheese hard</item>
+        <item>Cheese soft (Full fat)</item>
+        <item>Cheese soft (Medium fat)</item>
+        <item>Cheese spread</item>
+        <item>Chees stilton blue</item>
+        <item>Cheese white</item>
+        <item>Cheese mozzarella</item>
+        <item>Milk Buffalo Whole</item>
+        <item>Milk Buffalo Skimmed</item>
+        <item>Milk Cow Whole</item>
+        <item>Milk Goat whole</item>
+        <item>Paneer Buffalo Milk</item>
+        <item>Paneer Cow Milk</item>
+        <item>Buttermilk</item>
+        <item>Lassi Medium thick salty</item>
+        <item>Lassi Medium thick sweet</item>
+        <item>Curd Cow Milk</item>
+        <item>Khoa Skimmed milk</item>
+        <item>Khoa cow milk</item>
+        <item>Khoa Buffalo milk</item>
+        <item>Bournvita with milk</item>
+        <item>Drinking chocolate mith milk</item>
+        <item>Horlick malted with milk</item>
+        <item>Ovaltine with milk</item>
+        <item>Milo with milk</item>
+        <item>Yoghurt plain</item>
+        <item>Yoghurt plain</item>
+        <item>Yoghurt Low fat flavoured</item>
+        <item>Butter</item>
+        <item>Butter Spread</item>
+        <item>Butter Spread Low fat</item>
+        <item>Cream clotted</item>
+        <item>Cream Sour</item>
+        <item>Cream whipped</item>
+        <item>Margarine</item>
+        <item>Mayonnaise</item>
+        <item>Raita Cucumber</item>
+        <item>Raita Onion</item>
+        <item>Raota Potato</item>
+        <item>Raita Tomato</item>
+        <item>Raita Mixed</item>
+        <item>Raita Boondi</item>
+        <!--Milk n Milk Products-->
+        <item>Pineapple Milk shake</item>
+        <item>Lichee</item>
+        <item>Strawberry</item>
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Sitaphal</item>
+        <item>Apple</item>
+        <item>Chickoo</item>
+        <item>Anjir</item>
+        <item>Pineapple Milk shake + Ice cream one scoop</item>
+        <item>Lichee + Ice cream</item>
+        <item>Strawberry + Ice cream</item>
+        <item>Banana + Ice cream</item>
+        <item>Mnago + Ice cream</item>
+        <item>Sitaphal + Ice cream</item>
+        <item>apple + Ice cream</item>
+        <item>Anjir + Ice cream</item>
+        <item>Chikoo + Ice cream</item>
+        <!--Milk Shakes-->
+    </string-array>
+
+    <string-array name="meal_item_quant_unit_description">
+        <item>No of bottles(360 ml)</item>
+        <item>No of bottles(360 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of glasses</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Per plate (150G)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Numbers</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>1 Bowel</item>
+        <item>1 katori</item>
+        <item>1katori</item>
+        <item>1 bowel</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1/2 cup</item>
+        <item>1</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1/2 cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1/2cup</item>
+        <item>1/2 cup</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1plate</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1bowl</item>
+        <item>1katori</item>
+        <item>1plate</item>
+        <item>Urad</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1plate</item>
+        <item>1</item>
+        <item>1/2cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1</item>
+        <item>1katori</item>
+        <item>1bowl</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>2</item>
+        <item>1katori</item>
+        <item>1plate</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>1cup</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1katori</item>
+        <item>1/2cup</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1/2cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1cup</item>
+        <item>1</item>
+        <item>1katori</item>
+        <item>1bowl</item>
+        <item>1</item>
+        <item>1plate</item>
+        <item>1/2cup</item>
+        <item>1plate</item>
+        <item>2</item>
+        <item>100 G</item>
+        <item>100g</item>
+        <item>100 G</item>
+        <item>100 G</item>
+        <item>100 G</item>
+        <item>100 g</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>148G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>95G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100g</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>146G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Numbers</item>
+        <item>Per Plate</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>150 ml</item>
+        <item>150 ml</item>
+        <item>150 ml</item>
+        <item>150 ml</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>200ml</item>
+        <item>200ml</item>
+        <item>200ml</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>whole milk</item>
+        <item>whole milk + fruit</item>
+        <item>Grams</item>
+        <item>Table spoons (15 G)</item>
+        <item>Table spoons (15 G)</item>
+        <item>Table spoons (15 G)</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <!--meal data-->
+        <item>No of bottles(360 ml)</item>
+        <item>No of bottles(360 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of Glasses (100 ml each)</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of glasses (200 mleach)</item>
+        <item>No of glasses</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of servings</item>
+        <item>No of pegs (30 ml)</item>
+        <item>No of pegs (30 ml)</item>
+        <!--Beverages-->
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Per plate (150G)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Per Plate (100 gms)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Per plate (100G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Per Plate (200 gms)</item>
+        <item>Numbers</item>
+        <item>Per Plate (200 gms)</item>
+        <!--Cereals-->
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <!--Fish-->
+        <item>1 Bowel</item>
+        <item>1 katori</item>
+        <item>1katori</item>
+        <item>1 bowel</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1/2 cup</item>
+        <item>1</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1/2 cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1/2cup</item>
+        <item>1/2 cup</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1plate</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1bowl</item>
+        <item>1katori</item>
+        <item>1plate</item>
+        <item>Urad</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1plate</item>
+        <item>1</item>
+        <item>1/2cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1</item>
+        <item>1katori</item>
+        <item>1bowl</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>2</item>
+        <item>1katori</item>
+        <item>1plate</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>1cup</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1katori</item>
+        <item>1/2cup</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1/2cup</item>
+        <item>1katori</item>
+        <item>1cup</item>
+        <item>1cup</item>
+        <item>1katori</item>
+        <item>1</item>
+        <item>1cup</item>
+        <item>1bowl</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1cup</item>
+        <item>1</item>
+        <item>1katori</item>
+        <item>1bowl</item>
+        <item>1</item>
+        <item>1plate</item>
+        <item>1/2cup</item>
+        <item>1plate</item>
+        <item>2</item>
+        <item>100 G</item>
+        <item>100g</item>
+        <item>100 G</item>
+        <item>100 G</item>
+        <item>100 G</item>
+        <item>100 g</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>148G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>95G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100g</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>146G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Per Plate</item>
+        <item>Numbers</item>
+        <item>Per Plate</item>
+        <!--Food n Calories-->
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <item>Per Cup (100 ml)</item>
+        <!--Hot Drinks-->
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>150 ml</item>
+        <item>150 ml</item>
+        <item>150 ml</item>
+        <item>150 ml</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>200ml</item>
+        <item>200ml</item>
+        <item>200ml</item>
+        <item>100G</item>
+        <item>100G</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>Grams</item>
+        <item>whole milk</item>
+        <item>whole milk + fruit</item>
+        <item>Grams</item>
+        <item>Table spoons (15 G)</item>
+        <item>Table spoons (15 G)</item>
+        <item>Table spoons (15 G)</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Tea Spoons</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <item>Number of Vatis (100 ml)</item>
+        <!--Milk n Milk Products-->
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <item>Number of glasses (250 ml)</item>
+        <!--Mulk Shakes-->
+    </string-array>
+
+    <integer-array name="meal_item_calories">
+        <item>100</item>
+        <item>150</item>
+        <item>118</item>
+        <item>105</item>
+        <item>107</item>
+        <item>87</item>
+        <item>74</item>
+        <item>73</item>
+        <item>70</item>
+        <item>66</item>
+        <item>75</item>
+        <item>94</item>
+        <item>116</item>
+        <item>124</item>
+        <item>140</item>
+        <item>128</item>
+        <item>161</item>
+        <item>167</item>
+        <item>44</item>
+        <item>146</item>
+        <item>90</item>
+        <item>105</item>
+        <item>116</item>
+        <item>262</item>
+        <item>181</item>
+        <item>156</item>
+        <item>128</item>
+        <item>112</item>
+        <item>308</item>
+        <item>122</item>
+        <item>189</item>
+        <item>171</item>
+        <item>104</item>
+        <item>70</item>
+        <item>70</item>
+        <item>302</item>
+        <item>476</item>
+        <item>288</item>
+        <item>620</item>
+        <item>610</item>
+        <item>245</item>
+        <item>225</item>
+        <item>265</item>
+        <item>410</item>
+        <item>335</item>
+        <item>524</item>
+        <item>550</item>
+        <item>310</item>
+        <item>200</item>
+        <item>170</item>
+        <item>250</item>
+        <item>400</item>
+        <item>621</item>
+        <item>643</item>
+        <item>618</item>
+        <item>612</item>
+        <item>348</item>
+        <item>351</item>
+        <item>108</item>
+        <item>108</item>
+        <item>40</item>
+        <item>65</item>
+        <item>90</item>
+        <item>92</item>
+        <item>88</item>
+        <item>94</item>
+        <item>98</item>
+        <item>100</item>
+        <item>94</item>
+        <item>110</item>
+        <item>166</item>
+        <item>166</item>
+        <item>92</item>
+        <item>146</item>
+        <item>172</item>
+        <item>170</item>
+        <item>256</item>
+        <item>210</item>
+        <item>45</item>
+        <item>65</item>
+        <item>108</item>
+        <item>65</item>
+        <item>104</item>
+        <item>70</item>
+        <item>70</item>
+        <item>60</item>
+        <item>86</item>
+        <item>178</item>
+        <item>100</item>
+        <item>104</item>
+        <item>74</item>
+        <item>96</item>
+        <item>113</item>
+        <item>80</item>
+        <item>55</item>
+        <item>66</item>
+        <item>66</item>
+        <item>72</item>
+        <item>90</item>
+        <item>100</item>
+        <item>145</item>
+        <item>155</item>
+        <item>185</item>
+        <item>110</item>
+        <item>155</item>
+        <item>200</item>
+        <item>197</item>
+        <item>210</item>
+        <item>210</item>
+        <item>220</item>
+        <item>235</item>
+        <item>385</item>
+        <item>310</item>
+        <item>283</item>
+        <item>465</item>
+        <item>166</item>
+        <item>243</item>
+        <item>130</item>
+        <item>135</item>
+        <item>303</item>
+        <item>205</item>
+        <item>532</item>
+        <item>115</item>
+        <item>115</item>
+        <item>457</item>
+        <item>177</item>
+        <item>145</item>
+        <item>377</item>
+        <item>190</item>
+        <item>142</item>
+        <item>90</item>
+        <item>432</item>
+        <item>90</item>
+        <item>100</item>
+        <item>428</item>
+        <item>534</item>
+        <item>180</item>
+        <item>650</item>
+        <item>180</item>
+        <item>595</item>
+        <item>221</item>
+        <item>332</item>
+        <item>471</item>
+        <item>30</item>
+        <item>90</item>
+        <item>414</item>
+        <item>170</item>
+        <item>90</item>
+        <item>80</item>
+        <item>96</item>
+        <item>550</item>
+        <item>130</item>
+        <item>128</item>
+        <item>194</item>
+        <item>90</item>
+        <item>391</item>
+        <item>128</item>
+        <item>385</item>
+        <item>85</item>
+        <item>90</item>
+        <item>85</item>
+        <item>106</item>
+        <item>419</item>
+        <item>310</item>
+        <item>290</item>
+        <item>455</item>
+        <item>119</item>
+        <item>109</item>
+        <item>259</item>
+        <item>242</item>
+        <item>127</item>
+        <item>209</item>
+        <item>230</item>
+        <item>148</item>
+        <item>161</item>
+        <item>187</item>
+        <item>107</item>
+        <item>226</item>
+        <item>177</item>
+        <item>248</item>
+        <item>267</item>
+        <item>86</item>
+        <item>124</item>
+        <item>198</item>
+        <item>115</item>
+        <item>109</item>
+        <item>152</item>
+        <item>83</item>
+        <item>118</item>
+        <item>230</item>
+        <item>47</item>
+        <item>74</item>
+        <item>278</item>
+        <item>257</item>
+        <item>93</item>
+        <item>155</item>
+        <item>95</item>
+        <item>93</item>
+        <item>165</item>
+        <item>180</item>
+        <item>60</item>
+        <item>206</item>
+        <item>132</item>
+        <item>289</item>
+        <item>326</item>
+        <item>220</item>
+        <item>325</item>
+        <item>242</item>
+        <item>138</item>
+        <item>86</item>
+        <item>155</item>
+        <item>104</item>
+        <item>100</item>
+        <item>269</item>
+        <item>170</item>
+        <item>202</item>
+        <item>245</item>
+        <item>90</item>
+        <item>340</item>
+        <item>178</item>
+        <item>179</item>
+        <item>292</item>
+        <item>163</item>
+        <item>169</item>
+        <item>163</item>
+        <item>72</item>
+        <item>252</item>
+        <item>112</item>
+        <item>584</item>
+        <item>582</item>
+        <item>285</item>
+        <item>161</item>
+        <item>108</item>
+        <item>268</item>
+        <item>141</item>
+        <item>231</item>
+        <item>203</item>
+        <item>124</item>
+        <item>298</item>
+        <item>221</item>
+        <item>466</item>
+        <item>174</item>
+        <item>98</item>
+        <item>155</item>
+        <item>208</item>
+        <item>388</item>
+        <item>87</item>
+        <item>304</item>
+        <item>166</item>
+        <item>62</item>
+        <item>243</item>
+        <item>81</item>
+        <item>302</item>
+        <item>264</item>
+        <item>97</item>
+        <item>185</item>
+        <item>183</item>
+        <item>85</item>
+        <item>80</item>
+        <item>138</item>
+        <item>129</item>
+        <item>139</item>
+        <item>185</item>
+        <item>121</item>
+        <item>212</item>
+        <item>104</item>
+        <item>185</item>
+        <item>100</item>
+        <item>101</item>
+        <item>272</item>
+        <item>430</item>
+        <item>103</item>
+        <item>134</item>
+        <item>105</item>
+        <item>70</item>
+        <item>61</item>
+        <item>131</item>
+        <item>74</item>
+        <item>100</item>
+        <item>275</item>
+        <item>121</item>
+        <item>147</item>
+        <item>67</item>
+        <item>102</item>
+        <item>283</item>
+        <item>283</item>
+        <item>85</item>
+        <item>65</item>
+        <item>160</item>
+        <item>147</item>
+        <item>88</item>
+        <item>53</item>
+        <item>99</item>
+        <item>92</item>
+        <item>211</item>
+        <item>165</item>
+        <item>107</item>
+        <item>238</item>
+        <item>111</item>
+        <item>119</item>
+        <item>215</item>
+        <item>117</item>
+        <item>67</item>
+        <item>60</item>
+        <item>15</item>
+        <item>29</item>
+        <item>265</item>
+        <item>292</item>
+        <item>421</item>
+        <item>206</item>
+        <item>348</item>
+        <item>69</item>
+        <item>369</item>
+        <item>315</item>
+        <item>460</item>
+        <item>157</item>
+        <item>83</item>
+        <item>345</item>
+        <item>227</item>
+        <item>159</item>
+        <item>131</item>
+        <item>215</item>
+        <item>408</item>
+        <item>107</item>
+        <item>456</item>
+        <item>2</item>
+        <item>281</item>
+        <item>97</item>
+        <item>2</item>
+        <item>2</item>
+        <item>94</item>
+        <item>57</item>
+        <item>319</item>
+        <item>297</item>
+        <item>412</item>
+        <item>90</item>
+        <item>439</item>
+        <item>347</item>
+        <item>333</item>
+        <item>256</item>
+        <item>375</item>
+        <item>452</item>
+        <item>405</item>
+        <item>310</item>
+        <item>180</item>
+        <item>280</item>
+        <item>411</item>
+        <item>376</item>
+        <item>355</item>
+        <item>145</item>
+        <item>76</item>
+        <item>109</item>
+        <item>126</item>
+        <item>292</item>
+        <item>265</item>
+        <item>35</item>
+        <item>100</item>
+        <item>156</item>
+        <item>56</item>
+        <item>206</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>100</item>
+        <item>90</item>
+        <item>60</item>
+        <item>29</item>
+        <item>10</item>
+        <item>19</item>
+        <item>37</item>
+        <item>35</item>
+        <item>35</item>
+        <item>48</item>
+        <item>70</item>
+        <item>42</item>
+        <item>62</item>
+        <item>157</item>
+        <item>245</item>
+        <item>255</item>
+        <item>240</item>
+        <item>310</item>
+        <item>310</item>
+        <item>301</item>
+        <item>250</item>
+        <item>300</item>
+        <item>336</item>
+        <item>360</item>
+        <item>370</item>
+        <item>355</item>
+        <item>425</item>
+        <item>402</item>
+        <item>420</item>
+        <item>365</item>
+        <item>451</item>
+        <item>414</item>
+        <!--meal_data-->
+        <item>100</item>
+        <item>150</item>
+        <item>118</item>
+        <item>105</item>
+        <item>107</item>
+        <item>87</item>
+        <item>74</item>
+        <item>73</item>
+        <item>70</item>
+        <item>66</item>
+        <item>75</item>
+        <item>94</item>
+        <item>116</item>
+        <item>124</item>
+        <item>140</item>
+        <item>128</item>
+        <item>161</item>
+        <item>167</item>
+        <item>44</item>
+        <item>146</item>
+        <item>90</item>
+        <item>105</item>
+        <item>116</item>
+        <item>262</item>
+        <item>181</item>
+        <item>156</item>
+        <item>128</item>
+        <item>112</item>
+        <item>308</item>
+        <item>122</item>
+        <item>189</item>
+        <item>171</item>
+        <item>104</item>
+        <item>70</item>
+        <item>70</item>
+        <!--Beverages-->
+        <item>302</item>
+        <item>476</item>
+        <item>288</item>
+        <item>620</item>
+        <item>610</item>
+        <item>245</item>
+        <item>225</item>
+        <item>265</item>
+        <item>410</item>
+        <item>335</item>
+        <item>524</item>
+        <item>550</item>
+        <item>310</item>
+        <item>200</item>
+        <item>170</item>
+        <item>250</item>
+        <item>400</item>
+        <item>621</item>
+        <item>643</item>
+        <item>618</item>
+        <item>612</item>
+        <item>348</item>
+        <item>351</item>
+        <item>108</item>
+        <item>108</item>
+        <item>40</item>
+        <item>65</item>
+        <item>90</item>
+        <item>92</item>
+        <item>88</item>
+        <item>94</item>
+        <item>98</item>
+        <item>100</item>
+        <item>94</item>
+        <item>110</item>
+        <item>166</item>
+        <item>166</item>
+        <item>92</item>
+        <item>146</item>
+        <item>172</item>
+        <item>170</item>
+        <item>256</item>
+        <item>210</item>
+        <item>45</item>
+        <item>65</item>
+        <item>108</item>
+        <item>65</item>
+        <item>104</item>
+        <item>70</item>
+        <item>70</item>
+        <item>60</item>
+        <item>86</item>
+        <item>178</item>
+        <item>100</item>
+        <item>104</item>
+        <item>74</item>
+        <item>96</item>
+        <item>113</item>
+        <item>80</item>
+        <item>55</item>
+        <item>66</item>
+        <item>66</item>
+        <item>72</item>
+        <item>90</item>
+        <item>100</item>
+        <item>145</item>
+        <item>155</item>
+        <item>185</item>
+        <item>110</item>
+        <item>155</item>
+        <item>200</item>
+        <item>197</item>
+        <item>210</item>
+        <item>210</item>
+        <item>220</item>
+        <item>235</item>
+        <item>385</item>
+        <item>310</item>
+        <item>283</item>
+        <item>465</item>
+        <item>166</item>
+        <item>243</item>
+        <item>130</item>
+        <item>135</item>
+        <!--Cereals-->
+        <item>303</item>
+        <item>205</item>
+        <item>532</item>
+        <item>115</item>
+        <item>115</item>
+        <item>457</item>
+        <item>177</item>
+        <item>145</item>
+        <item>377</item>
+        <item>190</item>
+        <item>142</item>
+        <item>90</item>
+        <item>432</item>
+        <item>90</item>
+        <item>100</item>
+        <item>428</item>
+        <item>534</item>
+        <item>180</item>
+        <item>650</item>
+        <item>180</item>
+        <item>595</item>
+        <item>221</item>
+        <item>332</item>
+        <item>471</item>
+        <item>30</item>
+        <item>90</item>
+        <item>414</item>
+        <item>170</item>
+        <item>90</item>
+        <item>80</item>
+        <item>96</item>
+        <item>550</item>
+        <item>130</item>
+        <item>128</item>
+        <item>194</item>
+        <item>90</item>
+        <item>391</item>
+        <item>128</item>
+        <item>385</item>
+        <item>85</item>
+        <item>90</item>
+        <item>85</item>
+        <item>106</item>
+        <item>419</item>
+        <item>310</item>
+        <item>290</item>
+        <item>455</item>
+        <item>119</item>
+        <item>109</item>
+        <item>259</item>
+        <item>242</item>
+        <item>127</item>
+        <item>209</item>
+        <!--Fish-->
+        <item>230</item>
+        <item>148</item>
+        <item>161</item>
+        <item>187</item>
+        <item>107</item>
+        <item>226</item>
+        <item>177</item>
+        <item>248</item>
+        <item>267</item>
+        <item>86</item>
+        <item>124</item>
+        <item>198</item>
+        <item>115</item>
+        <item>109</item>
+        <item>152</item>
+        <item>83</item>
+        <item>118</item>
+        <item>230</item>
+        <item>47</item>
+        <item>74</item>
+        <item>278</item>
+        <item>257</item>
+        <item>93</item>
+        <item>155</item>
+        <item>95</item>
+        <item>93</item>
+        <item>165</item>
+        <item>180</item>
+        <item>60</item>
+        <item>206</item>
+        <item>132</item>
+        <item>289</item>
+        <item>326</item>
+        <item>220</item>
+        <item>325</item>
+        <item>242</item>
+        <item>138</item>
+        <item>86</item>
+        <item>155</item>
+        <item>104</item>
+        <item>100</item>
+        <item>269</item>
+        <item>170</item>
+        <item>202</item>
+        <item>245</item>
+        <item>90</item>
+        <item>340</item>
+        <item>178</item>
+        <item>179</item>
+        <item>292</item>
+        <item>163</item>
+        <item>169</item>
+        <item>163</item>
+        <item>72</item>
+        <item>252</item>
+        <item>112</item>
+        <item>584</item>
+        <item>582</item>
+        <item>285</item>
+        <item>161</item>
+        <item>108</item>
+        <item>268</item>
+        <item>141</item>
+        <item>231</item>
+        <item>203</item>
+        <item>124</item>
+        <item>298</item>
+        <item>221</item>
+        <item>466</item>
+        <item>174</item>
+        <item>98</item>
+        <item>155</item>
+        <item>208</item>
+        <item>388</item>
+        <item>87</item>
+        <item>304</item>
+        <item>166</item>
+        <item>62</item>
+        <item>243</item>
+        <item>81</item>
+        <item>302</item>
+        <item>264</item>
+        <item>97</item>
+        <item>185</item>
+        <item>183</item>
+        <item>85</item>
+        <item>80</item>
+        <item>138</item>
+        <item>129</item>
+        <item>139</item>
+        <item>185</item>
+        <item>121</item>
+        <item>212</item>
+        <item>104</item>
+        <item>185</item>
+        <item>100</item>
+        <item>101</item>
+        <item>272</item>
+        <item>430</item>
+        <item>103</item>
+        <item>134</item>
+        <item>105</item>
+        <item>70</item>
+        <item>61</item>
+        <item>131</item>
+        <item>74</item>
+        <item>100</item>
+        <item>275</item>
+        <item>121</item>
+        <item>147</item>
+        <item>67</item>
+        <item>102</item>
+        <item>283</item>
+        <item>283</item>
+        <item>85</item>
+        <item>65</item>
+        <item>160</item>
+        <item>147</item>
+        <item>88</item>
+        <item>53</item>
+        <item>99</item>
+        <item>92</item>
+        <item>211</item>
+        <item>165</item>
+        <item>107</item>
+        <item>238</item>
+        <item>111</item>
+        <item>119</item>
+        <item>215</item>
+        <item>117</item>
+        <item>67</item>
+        <item>60</item>
+        <item>15</item>
+        <item>29</item>
+        <item>265</item>
+        <item>292</item>
+        <item>421</item>
+        <item>206</item>
+        <item>348</item>
+        <item>69</item>
+        <item>369</item>
+        <item>315</item>
+        <item>460</item>
+        <item>157</item>
+        <item>83</item>
+        <item>345</item>
+        <item>227</item>
+        <item>159</item>
+        <item>131</item>
+        <item>215</item>
+        <item>408</item>
+        <item>107</item>
+        <item>456</item>
+        <!--Food n Calories-->
+        <item>2</item>
+        <item>281</item>
+        <item>97</item>
+        <item>2</item>
+        <item>2</item>
+        <item>94</item>
+        <item>57</item>
+        <!--Hot Drinks-->
+        <item>319</item>
+        <item>297</item>
+        <item>412</item>
+        <item>90</item>
+        <item>439</item>
+        <item>347</item>
+        <item>333</item>
+        <item>256</item>
+        <item>375</item>
+        <item>452</item>
+        <item>405</item>
+        <item>310</item>
+        <item>180</item>
+        <item>280</item>
+        <item>411</item>
+        <item>376</item>
+        <item>355</item>
+        <item>145</item>
+        <item>76</item>
+        <item>109</item>
+        <item>126</item>
+        <item>292</item>
+        <item>265</item>
+        <item>35</item>
+        <item>100</item>
+        <item>156</item>
+        <item>56</item>
+        <item>206</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>100</item>
+        <item>90</item>
+        <item>60</item>
+        <item>29</item>
+        <item>10</item>
+        <item>19</item>
+        <item>37</item>
+        <item>35</item>
+        <item>35</item>
+        <item>48</item>
+        <item>70</item>
+        <item>42</item>
+        <item>62</item>
+        <item>157</item>
+        <!--Milk n Milk Products-->
+        <item>245</item>
+        <item>255</item>
+        <item>240</item>
+        <item>310</item>
+        <item>310</item>
+        <item>301</item>
+        <item>250</item>
+        <item>300</item>
+        <item>336</item>
+        <item>360</item>
+        <item>370</item>
+        <item>355</item>
+        <item>425</item>
+        <item>402</item>
+        <item>420</item>
+        <item>365</item>
+        <item>451</item>
+        <item>414</item>
+        <!--Milk Shakes-->
+    </integer-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:scrollbars="vertical">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:orientation="vertical">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                     android:stretchColumns="*">
+            <TableRow android:layout_width="fill_parent">
+                <TextView android:id="@+id/fromDateTxtVw" android:text="From:"/>
+                <DatePicker android:id="@+id/fromDatePicker"/>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent">
+                <TextView android:id="@+id/toDateTxtVw" android:text="To:"/>
+                <DatePicker android:id="@+id/toDatePicker"/>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent">
+                <TextView android:text=""/>
+                <TextView android:text=""/>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout android:id="@+id/reportTabLayout" android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:stretchColumns="*" android:visibility="invisible">
+            <TableRow android:layout_width="fill_parent" android:layout_margin="2dip">
+                <TextView android:text="Lab Expense:"/>
+                <TextView android:id="@+id/labExpenseTxtVw" android:text=""/>
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_margin="2dip">
+                <TextView android:text="Doctor Expense:"/>
+                <TextView android:id="@+id/docExpenseTxtVw" android:text=""/>
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent" android:layout_margin="2dip">
+                <TextView android:text="Net Expense:"/>
+                <TextView android:id="@+id/netExpenseTxtVw" android:text="" android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

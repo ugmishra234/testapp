@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:scrollbars="vertical">
+
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*"
+            >
+
+        <TableRow>
+            <AutoCompleteTextView android:id="@+id/exercisesAutoComplete" android:layout_width="0px" android:layout_weight="1"
+                     android:layout_height="wrap_content" android:hint="Exercise"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="2px">
+            <Button android:id="@+id/exerciseDate" android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:hint="Exercise Date"
+                    android:layout_width="0px" android:layout_weight="1"
+                    />
+            <!--<Button android:id="@+id/exerciseTime" android:layout_height="wrap_content"-->
+                    <!--android:editable="false" android:layout_width="0px" android:layout_weight="1"-->
+                    <!--android:hint="Exercise Time"-->
+                    <!--/>-->
+            <EditText android:id="@+id/exerciseDuration" android:layout_width="0px" android:layout_weight="1"
+                      android:hint="Duration(min)" android:inputType="number"/>
+        </TableRow>
+
+        <!--<TableRow>-->
+            <!--<EditText android:id="@+id/exerciseDuration" android:layout_width="0px" android:layout_weight="1"-->
+                      <!--android:hint="Duration(min)" android:inputType="number"/>-->
+        <!--</TableRow>-->
+
+        <TableRow android:layout_marginTop="5px">
+            <TextView android:layout_marginLeft="3px"
+                      android:layout_width="0px" android:layout_weight="1"
+                      android:text="Calories Spent" android:textSize="14dip"/>
+            <TextView android:id="@+id/exerciseCalories" android:layout_width="0px" android:layout_weight="1"
+                      android:text="0" android:textSize="14dip"/>
+        </TableRow>
+
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,238 @@
+<resources>
+    <string-array name="meal_snacks_items">
+        <item>Aloo pattice</item>
+        <item>Amiri Khaman</item>
+        <item>appam</item>
+        <item>Baked beans on Toast</item>
+        <item>banana wafers</item>
+        <item>Batata Vada</item>
+        <item>Besan laddu</item>
+        <item>Bhel puri</item>
+        <item>Biscutes Bourbon</item>
+        <item>Biscutes Elaichi cream</item>
+        <item>Biscutes Malt</item>
+        <item>Biscutes Orange Cream</item>
+        <item>Bread rolls</item>
+        <item>Chane Ghashi Kokani style</item>
+        <item>Cheesllings</item>
+        <item>Chicken sandwich</item>
+        <item>Chutney Sandwich</item>
+        <item>Club Sandwich Non Veg</item>
+        <item>Coconut Burfi</item>
+        <item>Corn Croquettes</item>
+        <item>Corn Flakes</item>
+        <item>Dahi Vada</item>
+        <item>French Fries</item>
+        <item>French Toast</item>
+        <item>Gajjar Halava</item>
+        <item>Gathia</item>
+        <item>Ham sandwich</item>
+        <item>kaju Rolls</item>
+        <item>Kanda Bhaji</item>
+        <item>Kheer (Rice)</item>
+        <item>Kolhapuri Misal</item>
+        <item>Kothimbir Pat wadi</item>
+        <item>krack Jack</item>
+        <item>Masala Bread (North Indian Style Bread Upma)</item>
+        <item>masala Peanuts</item>
+        <item>Masala Puri</item>
+        <item>Medu Vada</item>
+        <item>Misal</item>
+        <item>Mixed dal Vada</item>
+        <item>Monaco</item>
+        <item>Moong Dal halava</item>
+        <item>Mutton Samosa</item>
+        <item>onion Pakoda</item>
+        <item>Paneer pakoda</item>
+        <item>Pani Puri</item>
+        <item>Parle Gluco</item>
+        <item>Patra</item>
+        <item>Pav Bhaji</item>
+        <item>Pea kachori</item>
+        <item>peanut pakoda</item>
+        <item>Poha</item>
+        <item>potato Bhaji</item>
+        <item>Potato Chees sandwich</item>
+        <item>Potato Poha</item>
+        <item>Potato Tikki with Tamarind chutney</item>
+        <item>Punjabi Samosa</item>
+        <item>Puri Potato Bhaji</item>
+        <item>ragada pattice</item>
+        <item>Sabudana Khichadi</item>
+        <item>Sabudana Vada</item>
+        <item>Sambar</item>
+        <item>Samosa</item>
+        <item>Sandwich dhokla</item>
+        <item>Sarson ka Saag</item>
+        <item>Scones</item>
+        <item>Seekh kabab</item>
+        <item>Sev</item>
+        <item>Spicy shankarpala</item>
+        <item>Suki Bhel</item>
+        <item>Tomato Omelette</item>
+        <item>Tomoto Sandwich</item>
+        <item>Tuna sandwich</item>
+        <item>Unripe mango curry</item>
+        <item>Upma</item>
+        <item>Vada Pav</item>
+        <item>Veg Cheese toast</item>
+    </string-array>
+
+    <string-array name="meal_snacks_item_quant_unit_description">
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of pieces</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of plates</item>
+        <item>No of handfulls ( 32gms)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of vatis ( 50 Gms)</item>
+        <item>Numbers</item>
+        <item>No of No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of  Handfulls (25 Gms)</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of plates</item>
+        <item>No of plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of plates</item>
+        <item>Number of Handfuls</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of No of Plates</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>Numbers</item>
+        <item>No of vatis</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers of vatis</item>
+        <item>Number of vatis</item>
+        <item>No of Plates</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of Plates</item>
+        <item>No of plates</item>
+        <item>Number of No of Plates</item>
+        <item>No of No of Plates</item>
+        <item>Numbers</item>
+    </string-array>
+
+    <integer-array name="meal_snacks_item_calories">
+        <item>138</item>
+        <item>316</item>
+        <item>117</item>
+        <item>195</item>
+        <item>17</item>
+        <item>140</item>
+        <item>315</item>
+        <item>315</item>
+        <item>63</item>
+        <item>45</item>
+        <item>31</item>
+        <item>45</item>
+        <item>197</item>
+        <item>159</item>
+        <item>160</item>
+        <item>301</item>
+        <item>181</item>
+        <item>387</item>
+        <item>157</item>
+        <item>116</item>
+        <item>290</item>
+        <item>90</item>
+        <item>415</item>
+        <item>56</item>
+        <item>460</item>
+        <item>120</item>
+        <item>285</item>
+        <item>83</item>
+        <item>37</item>
+        <item>345</item>
+        <item>408</item>
+        <item>107</item>
+        <item>15</item>
+        <item>202</item>
+        <item>200</item>
+        <item>116</item>
+        <item>109</item>
+        <item>136</item>
+        <item>99</item>
+        <item>14</item>
+        <item>456</item>
+        <item>163</item>
+        <item>40</item>
+        <item>47</item>
+        <item>430</item>
+        <item>28</item>
+        <item>54</item>
+        <item>269</item>
+        <item>101</item>
+        <item>75</item>
+        <item>318</item>
+        <item>46</item>
+        <item>459</item>
+        <item>178</item>
+        <item>125</item>
+        <item>259</item>
+        <item>546</item>
+        <item>415</item>
+        <item>227</item>
+        <item>109</item>
+        <item>209</item>
+        <item>369</item>
+        <item>25</item>
+        <item>131</item>
+        <item>210</item>
+        <item>70</item>
+        <item>358</item>
+        <item>119</item>
+        <item>275</item>
+        <item>151</item>
+        <item>373</item>
+        <item>279</item>
+        <item>215</item>
+        <item>256</item>
+        <item>282</item>
+        <item>154</item>
+    </integer-array>
+</resources>

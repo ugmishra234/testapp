@@ -1,0 +1,151 @@
+<resources>
+    <string-array name="meal_nuts_items">
+        <item>Amala</item>
+        <item>Anjeer</item>
+        <item>Anjir</item>
+        <item>Apple</item>
+        <item>Apricot Raw</item>
+        <item>Apricot Ripe</item>
+        <item>Avocado</item>
+        <item>Badam</item>
+        <item>Banana Ripe</item>
+        <item>Blackberry</item>
+        <item>Blackcurrents</item>
+        <item>Bor</item>
+        <item>Charoli</item>
+        <item>Cherries</item>
+        <item>Chickoo</item>
+        <item>Dates</item>
+        <item>Grapefruit</item>
+        <item>Grapes</item>
+        <item>Groundnuts plain</item>
+        <item>Groundnuts roasted</item>
+        <item>Guava</item>
+        <item>jackfruit (Fanas)</item>
+        <item>Jambu</item>
+        <item>Jamun</item>
+        <item>Kaju</item>
+        <item>Kiwi</item>
+        <item>Lemon</item>
+        <item>Lichi</item>
+        <item>Mango Ripe</item>
+        <item>Mullbery</item>
+        <item>Orange</item>
+        <item>Papaya</item>
+        <item>Peach</item>
+        <item>Pear</item>
+        <item>Pineaple</item>
+        <item>Pista Plain</item>
+        <item>Pista Salted</item>
+        <item>Plum</item>
+        <item>Pomegranate</item>
+        <item>Raisins</item>
+        <item>Raspberries</item>
+        <item>Seetaphal</item>
+        <item>Strawberries</item>
+        <item>Supari</item>
+        <item>Sweet lime</item>
+        <item>Walnut</item>
+        <item>Watermelon</item>
+    </string-array>
+
+    <string-array name="meal_nuts_item_quant_unit_description">
+        <item>Number of Handfuls(100G)</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls(100G)</item>
+        <item>Numner of Hnadfuls(100G)</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Number of Handfuls</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Number of Handfuls</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Number of handfuls (100G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls</item>
+        <item>Numbers</item>
+        <item>No of Plates (100 G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>No of slices</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>Numbers</item>
+        <item>Number of Handfuls(30G)</item>
+        <item>No of slices</item>
+    </string-array>
+
+    <integer-array name="meal_nuts_item_calories">
+        <item>60</item>
+        <item>165</item>
+        <item>20</item>
+        <item>54</item>
+        <item>31</item>
+        <item>158</item>
+        <item>43</item>
+        <item>196</item>
+        <item>90</item>
+        <item>71</item>
+        <item>95</item>
+        <item>74</item>
+        <item>186</item>
+        <item>36</item>
+        <item>100</item>
+        <item>95</item>
+        <item>30</item>
+        <item>4</item>
+        <item>172</item>
+        <item>170</item>
+        <item>28</item>
+        <item>90</item>
+        <item>18</item>
+        <item>5</item>
+        <item>178</item>
+        <item>46</item>
+        <item>48</item>
+        <item>65</item>
+        <item>120</item>
+        <item>51</item>
+        <item>100</item>
+        <item>50</item>
+        <item>33</item>
+        <item>100</item>
+        <item>60</item>
+        <item>188</item>
+        <item>189</item>
+        <item>18</item>
+        <item>100</item>
+        <item>92</item>
+        <item>4</item>
+        <item>55</item>
+        <item>4</item>
+        <item>74</item>
+        <item>47</item>
+        <item>206</item>
+        <item>15</item>
+    </integer-array>
+</resources>
