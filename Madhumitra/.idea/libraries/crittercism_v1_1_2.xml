@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="crittercism_v1_1_2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/crittercism_v1_1_2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
