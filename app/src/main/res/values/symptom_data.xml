@@ -1,7 +1,0 @@
-<resources>
-    <string-array name="symptoms_list">
-        <item>Breathlessness</item>
-        <item>Sweating</item>
-        <item>Giddiness</item>
-    </string-array>
-</resources>
