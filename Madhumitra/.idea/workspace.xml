@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa4d7931-74d7-4bbf-975e-a4e7e31b3a96" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_arch_core_common_1_0_0_jar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_common_1_0_0_jar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_arch_lifecycle_runtime_1_0_0.xml" />
@@ -28,6 +29,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_26_1_0.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_vector_drawable_26_1_0.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_transition_26_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/honap/madhumitra/act/MainActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
@@ -41,13 +43,13 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/crittercism_v1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/opencsv_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_android_4_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_core_4_23.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/icon.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/crittercism_v1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/__local_jars____Users_umashankar_Documents_Projects_Workspace_DemoApp_testapp_Madhumitra_app_libs_crittercism_v1_1_2_jar_unspecified_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/opencsv_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/au_com_bytecode_opencsv_2_4_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_android_4_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/__local_jars____Users_umashankar_Documents_Projects_Workspace_DemoApp_testapp_Madhumitra_app_libs_ormlite_android_4_23_jar_unspecified_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_core_4_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/__local_jars____Users_umashankar_Documents_Projects_Workspace_DemoApp_testapp_Madhumitra_app_libs_ormlite_core_4_23_jar_unspecified_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
@@ -2235,7 +2237,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510656869129" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510656924112" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2283,7 +2285,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510656869129" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510656924112" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2466,7 +2468,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510656869130" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510656924114" />
       </method>
     </configuration>
     <list size="1">
