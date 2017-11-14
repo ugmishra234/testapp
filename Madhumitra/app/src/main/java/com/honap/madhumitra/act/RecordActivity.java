@@ -10,10 +10,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.*;
+
 import com.honap.madhumitra.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+
 import com.honap.madhumitra.data.MadhumitraDataManagerFactory;
 import com.honap.madhumitra.entity.ActivityRecord;
 import com.honap.madhumitra.model.MadhumitraModel;
@@ -93,7 +96,7 @@ public class RecordActivity extends Activity {
 //            }
 //        });
 
-        this.activities =  Arrays.asList(getResources().getStringArray(R.array.activities));
+        this.activities = Arrays.asList(getResources().getStringArray(R.array.activities));
 
 
         autoComplete.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -202,10 +205,13 @@ public class RecordActivity extends Activity {
                         findViewById(R.id.activitiesAutoComplete);
                 int position = this.activities.indexOf(autoCompleteTextView.getText().toString());
                 EditText duration = (EditText) findViewById(R.id.activityDuration);
-                if(!(duration.getText().length() > 0)) {
-                    Toast.makeText(this,"Please enter activity duration",Toast.LENGTH_LONG).show();
+                if (!(duration.getText().length() > 0)) {
+                    Toast.makeText(this, "Please enter activity duration", Toast.LENGTH_LONG).show();
                 }
-                activityRecord.setDurationMin(Integer.parseInt(duration.getText().toString()));
+                if (duration.getText().toString().isEmpty()) {
+                    activityRecord.setDurationMin(Integer.parseInt(duration.getText().toString()));
+                }
+
                 // get activities & calorie arrays from resources
                 String[] activities = getResources().getStringArray(R.array.activities);
                 int[] calories = getResources().getIntArray(R.array.activities_calories);

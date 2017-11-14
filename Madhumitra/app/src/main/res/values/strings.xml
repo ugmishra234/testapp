@@ -49,5 +49,18 @@
         <item>Active (Exercise: 6-7 days/week)</item>
         <item>Very Active (Heavy exercise/phy. job)</item>
     </string-array>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="profile">PROFILE</string>
+    <string name="add_doctor">ADD DOCTOR</string>
+    <string name="view_doctor">VIEW DOCTOR</string>
+    <string name="delete_records">DELETE RECORDS</string>
+    <string name="report">REPORT</string>
+    <string name="setting">SETTING</string>
+    <string name="exit">EXIT</string>
 
 </resources>

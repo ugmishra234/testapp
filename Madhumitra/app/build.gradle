@@ -25,4 +25,8 @@ dependencies {
     compile files('libs/ormlite-android-4.23.jar')
     compile files('libs/ormlite-core-4.23.jar')
     compile group: 'au.com.bytecode', name: 'opencsv', version: '2.4'
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
 }

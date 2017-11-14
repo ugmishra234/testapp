@@ -1,36 +1,37 @@
 package com.honap.madhumitra.act;
 
-import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
-import au.com.bytecode.opencsv.CSVWriter;
+
 import com.honap.madhumitra.R;
 import com.honap.madhumitra.data.DbHelper;
-import com.honap.madhumitra.data.MadhumitraDataManagerFactory;
 import com.honap.madhumitra.entity.Doctor;
 import com.honap.madhumitra.entity.HomeInvestigationParamValue;
 import com.honap.madhumitra.entity.HomeInvestigationRecord;
 import com.honap.madhumitra.entity.MedicationRecord;
 import com.honap.madhumitra.misc.MedRecBslWrapper;
 import com.honap.madhumitra.model.MadhumitraModel;
-import com.honap.madhumitra.utils.Utils;
 import com.j256.ormlite.android.apptools.OrmLiteBaseActivity;
 import com.j256.ormlite.dao.ForeignCollection;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.jar.JarEntry;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Iterator;
+import java.util.List;
+
+import au.com.bytecode.opencsv.CSVWriter;
 
 /**
  * Author: Chetan S.
@@ -42,8 +43,8 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
     private List<String> sendTo = new ArrayList<String>();
     private List<Doctor> doctors = new ArrayList<Doctor>();
 
-        Date from = new Date();
-        Date to = new Date();
+    Date from = new Date();
+    Date to = new Date();
 
 
     public void onCreate(Bundle savedInstanceState) {
@@ -57,8 +58,7 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         }
         Button generate = (Button) findViewById(R.id.generateActReportBtn);
         generate.setOnClickListener(new Button.OnClickListener() {
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 init();
                 //get medication
                 getBSLValues(view);
@@ -70,8 +70,7 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         });
     }
 
-    public void init()
-    {
+    public void init() {
         DatePicker toDatePicker = (DatePicker) findViewById(R.id.actRepToDate);
         DatePicker fromDatePicker = (DatePicker) findViewById(R.id.actRepFromDate);
 
@@ -79,11 +78,11 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         to.setMonth(toDatePicker.getMonth());
         to.setYear(toDatePicker.getYear());
         Calendar toCalendar = GregorianCalendar.getInstance();
-        toCalendar.set(Calendar.DATE,to.getDate());
-        toCalendar.set(Calendar.MONTH,to.getMonth());
-        toCalendar.set(Calendar.YEAR,to.getYear());
-        toCalendar.set(Calendar.HOUR,12);
-        toCalendar.set(Calendar.MINUTE,1);
+        toCalendar.set(Calendar.DATE, to.getDate());
+        toCalendar.set(Calendar.MONTH, to.getMonth());
+        toCalendar.set(Calendar.YEAR, to.getYear());
+        toCalendar.set(Calendar.HOUR, 12);
+        toCalendar.set(Calendar.MINUTE, 1);
 
         to = toCalendar.getTime();
 
@@ -92,16 +91,17 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         from.setYear(fromDatePicker.getYear());
 
         Calendar fromCalendar = GregorianCalendar.getInstance();
-        fromCalendar.set(Calendar.DATE,from.getDate());
-        fromCalendar.set(Calendar.MONTH,from.getMonth());
-        fromCalendar.set(Calendar.YEAR,from.getYear());
-        fromCalendar.set(Calendar.HOUR,11);
-        fromCalendar.set(Calendar.MINUTE,59);
-        fromCalendar.add(Calendar.DATE,-1);
+        fromCalendar.set(Calendar.DATE, from.getDate());
+        fromCalendar.set(Calendar.MONTH, from.getMonth());
+        fromCalendar.set(Calendar.YEAR, from.getYear());
+        fromCalendar.set(Calendar.HOUR, 11);
+        fromCalendar.set(Calendar.MINUTE, 59);
+        fromCalendar.add(Calendar.DATE, -1);
 
         from = fromCalendar.getTime();
 
     }
+
     private void getBSLValues(View view) {
         //get the BSL values for the time period
         Iterator<HomeInvestigationRecord> homeInvestigationRecordIterator = MadhumitraModel.getInstance().getCurrentUserAccount().getHomeInvestigations().iterator();
@@ -120,13 +120,11 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
     private void getMedication(View view) {
         //get the medication done during this period
         Iterator<MedicationRecord> medicationRecordIterator = MadhumitraModel.getInstance().getCurrentUserAccount().getMedicationRecords().iterator();
-        while(medicationRecordIterator.hasNext())
-        {
+        while (medicationRecordIterator.hasNext()) {
             MedicationRecord medicationRecord = medicationRecordIterator.next();
             boolean pass1 = medicationRecord.getTime().after(from);
             boolean pass2 = medicationRecord.getTime().before(to);
-            if(pass1 && pass2 && (medicationRecord.getDoseStatus().equalsIgnoreCase(view.getContext().getResources().getString(R.string.med_dose_taken))))
-            {
+            if (pass1 && pass2 && (medicationRecord.getDoseStatus().equalsIgnoreCase(view.getContext().getResources().getString(R.string.med_dose_taken)))) {
                 medRecord.add(medicationRecord);
             }
         }
@@ -177,7 +175,7 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
 
         Iterator<HomeInvestigationRecord> itr = invRecord.iterator();
         try {
-            CSVWriter writer = new CSVWriter(new FileWriter(getResources().getString(R.string.act_report_file),false), ',');
+            CSVWriter writer = new CSVWriter(new FileWriter(getResources().getString(R.string.act_report_file), false), ',');
             while (itr.hasNext()) {
                 HomeInvestigationRecord temp = itr.next();
                 HomeInvestigationParamValue tempVal = temp.getInvestigationValues().iterator().next();
@@ -210,8 +208,7 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         }
     }
 
-    private void writeReport()
-    {
+    private void writeReport() {
         //List<String> bslVal = new ArrayList<String>();
         //List<String> medicationVal = new ArrayList<String>();
         List<String> dates = new ArrayList<String>();
@@ -220,14 +217,12 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
 
 
         Iterator<HomeInvestigationRecord> itr = invRecord.iterator();
-        while(itr.hasNext())
-        {
+        while (itr.hasNext()) {
             MedRecBslWrapper temp = new MedRecBslWrapper(itr.next());
             medRecBslWrapperList.add(temp);
         }
         Iterator<MedicationRecord> meditr = medRecord.iterator();
-        while(meditr.hasNext())
-        {
+        while (meditr.hasNext()) {
             MedRecBslWrapper temp = new MedRecBslWrapper(meditr.next());
             medRecBslWrapperList.add(temp);
         }
@@ -238,11 +233,11 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         dateString += "Date and Time:";
         dateString += "#";
         Iterator<MedRecBslWrapper> datesItr = medRecBslWrapperList.iterator();
-            //String bslDt = new String();
-            while (datesItr.hasNext()) {
-                dateString += datesItr.next().getDate();
-                dateString += "#";
-            }
+        //String bslDt = new String();
+        while (datesItr.hasNext()) {
+            dateString += datesItr.next().getDate();
+            dateString += "#";
+        }
         bslString += "BSL:";
         bslString += "#";
         medicationString += "Medication:";
@@ -250,20 +245,16 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         //String finalreport = new String();
         try {
             Iterator<MedRecBslWrapper> medrecBsl = medRecBslWrapperList.iterator();
-            CSVWriter writer = new CSVWriter(new FileWriter(getResources().getString(R.string.act_report_file),false), ',');
-            while(medrecBsl.hasNext())
-            {
+            CSVWriter writer = new CSVWriter(new FileWriter(getResources().getString(R.string.act_report_file), false), ',');
+            while (medrecBsl.hasNext()) {
                 MedRecBslWrapper value = medrecBsl.next();
-                if(value.getWrappedObj() instanceof HomeInvestigationRecord)
-                {
+                if (value.getWrappedObj() instanceof HomeInvestigationRecord) {
                     HomeInvestigationRecord homeInvestigationRecord = (HomeInvestigationRecord) value.getWrappedObj();
                     HomeInvestigationParamValue tempVal = homeInvestigationRecord.getInvestigationValues().iterator().next();
                     bslString += tempVal.getValue();
                     bslString += "#";
                     medicationString += "#";
-                }
-                else if(value.getWrappedObj() instanceof MedicationRecord)
-                {
+                } else if (value.getWrappedObj() instanceof MedicationRecord) {
                     MedicationRecord medicationRecord = (MedicationRecord) value.getWrappedObj();
                     medicationString += medicationRecord.getDrug();
                     medicationString += "#";
@@ -278,16 +269,14 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
             String[] medWrite = medicationString.split("#");
             writer.writeNext(medWrite);
             writer.close();
-        }
-        catch(IOException exp)
-        {
+        } catch (IOException exp) {
 
         }
     }
 
     public void email() {
         String[] toList = new String[sendTo.size()];
-        for (int i = 0; i < toList.length ; i++) {
+        for (int i = 0; i < toList.length; i++) {
             toList[i] = sendTo.get(i);
         }
         List<String> filePaths = new ArrayList<String>();
@@ -298,7 +287,7 @@ public class ActivityReport extends OrmLiteBaseActivity<DbHelper> {
         emailIntent.setType("plain/text");
         emailIntent.putExtra(Intent.EXTRA_EMAIL,
                 toList);
-        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "PFA Activity Report of "+
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "PFA Activity Report of " +
                 MadhumitraModel.getInstance().getCurrentUserAccount().getDisplayName());
         //has to be an ArrayList
         ArrayList<Uri> uris = new ArrayList<Uri>();

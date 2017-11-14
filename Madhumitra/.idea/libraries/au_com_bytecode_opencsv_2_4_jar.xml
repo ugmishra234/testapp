@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="opencsv-2.4">
+  <library name="au.com.bytecode:opencsv:2.4@jar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.bytecode/opencsv/2.4/66151f8e7f00426025da525c2d64ed78cbe3fd08/opencsv-2.4.jar!/" />
     </CLASSES>
