@@ -62,5 +62,19 @@
     <string name="report">REPORT</string>
     <string name="setting">SETTING</string>
     <string name="exit">EXIT</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>PROFILE</item>
+        <item>ADD DOCTOR</item>
+        <item>VIEW DOCTOR</item>
+        <item>DELETE RECORDS</item>
+        <item>REPORT</item>
+        <item>SETTING</item>
+        <item>EXIT</item>
+    </string-array>
+
 
 </resources>

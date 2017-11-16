@@ -14,33 +14,17 @@
 
     <application
         android:icon="@drawable/launcher_one"
-        android:label="@string/app_name">
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
         <activity
             android:name=".act.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Start of Crittercism.com Code -->
-        <activity android:name="com.crittercism.FeedbackActivity" />
-        <activity android:name="com.crittercism.FeedbackCreateActivity" />
-        <activity android:name="com.crittercism.FeedbackDetailsActivity" />
-        <activity android:name="com.crittercism.NotificationActivity" />
-
-        <service
-            android:name="com.crittercism.service.CrittercismService"
-            android:exported="true"
-            android:process="com.crittercism.service">
-            <intent-filter>
-                <action android:name="com.crittercism.service.CrittercismService" />
-            </intent-filter>
-        </service>
-        <!-- End of Crittercism.com Code -->
-
         <activity
             android:name=".act.SelectUserAccount"
             android:label="@string/app_name"
@@ -129,6 +113,22 @@
             android:label="Medication Notification" />
 
         <receiver android:name=".act.MedicationAlarmAnalyser" />
+
+        <!-- Start of Crittercism.com Code -->
+        <activity android:name="com.crittercism.FeedbackActivity" />
+        <activity android:name="com.crittercism.FeedbackCreateActivity" />
+        <activity android:name="com.crittercism.FeedbackDetailsActivity" />
+        <activity android:name="com.crittercism.NotificationActivity" />
+
+        <service
+            android:name="com.crittercism.service.CrittercismService"
+            android:exported="true"
+            android:process="com.crittercism.service">
+            <intent-filter>
+                <action android:name="com.crittercism.service.CrittercismService" />
+            </intent-filter>
+        </service>
+        <!-- End of Crittercism.com Code -->
     </application>
 
 </manifest>
