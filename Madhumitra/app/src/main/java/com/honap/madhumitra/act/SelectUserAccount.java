@@ -1,8 +1,6 @@
 package com.honap.madhumitra.act;
 
 import android.app.AlarmManager;
-import android.app.Notification;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
@@ -12,12 +10,15 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.*;
+import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.GridView;
+import android.widget.TextView;
+
 import com.crittercism.app.Crittercism;
 import com.honap.madhumitra.R;
 import com.honap.madhumitra.data.DbHelper;
 import com.honap.madhumitra.data.MadhumitraDataManagerFactory;
-import com.honap.madhumitra.entity.MedicationRecord;
 import com.honap.madhumitra.entity.Preferences;
 import com.honap.madhumitra.entity.UserAccount;
 import com.honap.madhumitra.misc.UserAccountAdapter;
@@ -25,9 +26,7 @@ import com.honap.madhumitra.model.MadhumitraModel;
 import com.honap.madhumitra.utils.Utils;
 import com.j256.ormlite.android.apptools.OrmLiteBaseActivity;
 
-import java.text.SimpleDateFormat;
 import java.util.List;
-import java.util.Random;
 
 public class SelectUserAccount extends OrmLiteBaseActivity<DbHelper> {
 
@@ -44,11 +43,12 @@ public class SelectUserAccount extends OrmLiteBaseActivity<DbHelper> {
         populatePreferences();
         // retrieve all user accounts
         userAccounts = MadhumitraDataManagerFactory.getDefaultMadhumitraDataManager(this).getAllUserAccounts();
-        if (userAccounts.size() > 0) {
-            findViewById(R.id.noUsersTextView).setVisibility(View.INVISIBLE);
+        if (userAccounts.size() == 0) {
+            TextView text = findViewById(R.id.noUsersTextView);
+            text.setText(R.string.no_users_string);
         }
         UserAccountAdapter userAccountAdapter = new UserAccountAdapter(this, android.R.layout.activity_list_item, userAccounts);
-        final ListView listView = (ListView) findViewById(R.id.accountList);
+        final GridView listView = (GridView) findViewById(R.id.accountList);
         listView.setAdapter(userAccountAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -60,6 +60,16 @@ public class SelectUserAccount extends OrmLiteBaseActivity<DbHelper> {
         });
         am = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
         setRepeatingAlarm();
+
+        Button addUser = findViewById(R.id.btn_add_user);
+        addUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent actIntent = new Intent(getApplicationContext(), AddUserAccount.class);
+                actIntent.putExtra("type", "add");
+                startActivityForResult(actIntent, 0);
+            }
+        });
 
         //startService(new Intent(this, MedicationNotificationService.class));
 
@@ -78,11 +88,12 @@ public class SelectUserAccount extends OrmLiteBaseActivity<DbHelper> {
         super.onResume();    //To change body of overridden methods use File | Settings | File Templates.
         // retrieve all user accounts
         userAccounts = MadhumitraDataManagerFactory.getDefaultMadhumitraDataManager(this).getAllUserAccounts();
-        if (userAccounts.size() > 0) {
-            findViewById(R.id.noUsersTextView).setVisibility(View.INVISIBLE);
+        if (userAccounts.size() == 0) {
+            TextView text = findViewById(R.id.noUsersTextView);
+            text.setText(R.string.no_users_string);
         }
         UserAccountAdapter userAccountAdapter = new UserAccountAdapter(this, android.R.layout.activity_list_item, userAccounts);
-        ListView listView = (ListView) findViewById(R.id.accountList);
+        GridView listView = findViewById(R.id.accountList);
         listView.setAdapter(userAccountAdapter);
 
     }
@@ -92,11 +103,12 @@ public class SelectUserAccount extends OrmLiteBaseActivity<DbHelper> {
         super.onRestart();    //To change body of overridden methods use File | Settings | File Templates.
         // retrieve all user accounts
         userAccounts = MadhumitraDataManagerFactory.getDefaultMadhumitraDataManager(this).getAllUserAccounts();
-        if (userAccounts.size() > 0) {
-            findViewById(R.id.noUsersTextView).setVisibility(View.INVISIBLE);
+        if (userAccounts.size() == 0) {
+            TextView text = findViewById(R.id.noUsersTextView);
+            text.setText(R.string.no_users_string);
         }
         UserAccountAdapter userAccountAdapter = new UserAccountAdapter(this, android.R.layout.activity_list_item, userAccounts);
-        ListView listView = (ListView) findViewById(R.id.accountList);
+        GridView listView = findViewById(R.id.accountList);
         listView.setAdapter(userAccountAdapter);
     }
 

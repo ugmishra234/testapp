@@ -1,18 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent" android:orientation="vertical">
-    <ListView android:id="@+id/accountList" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_2"
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    </ListView>
-    <TextView android:id="@+id/noUsersTextView" android:layout_width="fill_parent" android:layout_height="wrap_content"
-              android:text="@string/no_users_string" android:textColor="#C0C0C0" android:textSize="10px"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_weight="0.2"
+        android:src="@drawable/logo" />
 
-    <!--<Button android:id="@+id/addUserAccBtn" android:text="Add User Account"-->
-            <!--android:drawableLeft="@drawable/add_user_account" android:textColor="@android:color/white"-->
-            <!--android:paddingLeft="1px"-->
-            <!--android:layout_height="wrap_content" android:layout_width="wrap_content"-->
-            <!--android:background="@android:color/black" android:paddingTop="10px"-->
-            <!--/>-->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_35ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/noUsersTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_10ssp"
+        android:layout_marginEnd="@dimen/_26ssp"
+        android:layout_marginStart="@dimen/_26ssp"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal|center_vertical"
+        android:singleLine="false"
+        android:text="@string/intro"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_12ssp" />
+
+    <GridView
+        android:id="@+id/accountList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/_10sdp"
+        android:minHeight="@dimen/_150sdp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_add_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="ADD USER"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
 </LinearLayout>

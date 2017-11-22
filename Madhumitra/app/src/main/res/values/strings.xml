@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">Madhumitra</string>
     <string name="no_users_string">No User Account can be found. Please access menu to add User Account(s).</string>
+    <string name="intro">WE ARE HAPPY TO BE A PART OF YOUR JOURNEY TO BETTER HEALTH</string>
+    <string name="title">MADHUMITRA</string>
     <string name="bsl_id">BSL</string>
     <string name="preferences_id">madhumitra_preferences</string>
     <string-array name="duration_array">
