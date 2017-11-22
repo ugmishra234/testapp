@@ -6,5 +6,5 @@
 
     <color name="nav.menu.even">#2A3743</color>
     <color name="nav.menu.odd">#2C3947</color>
-    <color name="profile_border_color">#1D8293</color>
+    <color name="menu_profile_border_color">#1D8293</color>
 </resources>
