@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TabHost;
+
 import com.honap.madhumitra.R;
 import com.honap.madhumitra.data.DbHelper;
 import com.honap.madhumitra.data.MadhumitraDataManagerFactory;
@@ -65,16 +66,16 @@ public class LandingActivity extends OrmLiteBaseActivity<DbHelper> {
         Button recordActivity = (Button) findViewById(R.id.home_btn_activity);
         recordActivity.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
+                                          {
+                                              public void onClick
+                                                      (View
+                                                               v) {
 
 //            Intent actIntent = new Intent(v.getContext(),RecordActivity.class);
 //            startActivityForResult(actIntent, 0);
 
-            }
-        }
+                                              }
+                                          }
 
         );
 
@@ -97,31 +98,31 @@ public class LandingActivity extends OrmLiteBaseActivity<DbHelper> {
         Button mealActivity = (Button) findViewById(R.id.home_btn_meal);
         mealActivity.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
+                                        {
+                                            public void onClick
+                                                    (View
+                                                             v) {
 
 //            Intent actIntent = new Intent(v.getContext(),RecordMeal.class);
 //            startActivityForResult(actIntent, 0);
 
-            }
-        }
+                                            }
+                                        }
 
         );
 
         Button homeInv = (Button) findViewById(R.id.home_btn_home_inv);
         homeInv.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
+                                   {
+                                       public void onClick
+                                               (View
+                                                        v) {
 
-                Intent actIntent = new Intent(v.getContext(), RecordHomeInvestigation.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                           Intent actIntent = new Intent(v.getContext(), RecordHomeInvestigation.class);
+                                           startActivityForResult(actIntent, 0);
+                                       }
+                                   }
 
         );
 
@@ -129,14 +130,14 @@ public class LandingActivity extends OrmLiteBaseActivity<DbHelper> {
         Button calorieRep = (Button) findViewById(R.id.home_btn_calorie_report);
         calorieRep.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
-                Intent actIntent = new Intent(v.getContext(), CalorieReport.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                      {
+                                          public void onClick
+                                                  (View
+                                                           v) {
+                                              Intent actIntent = new Intent(v.getContext(), CalorieReport.class);
+                                              startActivityForResult(actIntent, 0);
+                                          }
+                                      }
 
         );
 
@@ -157,42 +158,42 @@ public class LandingActivity extends OrmLiteBaseActivity<DbHelper> {
         Button activity = (Button) findViewById(R.id.home_btn_activity);
         activity.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
-                Intent actIntent = new Intent(v.getContext(), RecordActivity.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                    {
+                                        public void onClick
+                                                (View
+                                                         v) {
+                                            Intent actIntent = new Intent(v.getContext(), RecordActivity.class);
+                                            startActivityForResult(actIntent, 0);
+                                        }
+                                    }
 
         );
 
         Button recMeal = (Button) findViewById(R.id.home_btn_meal);
         recMeal.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
-                Intent actIntent = new Intent(v.getContext(), RecordClassifiedMeal.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                   {
+                                       public void onClick
+                                               (View
+                                                        v) {
+                                           Intent actIntent = new Intent(v.getContext(), RecordClassifiedMeal.class);
+                                           startActivityForResult(actIntent, 0);
+                                       }
+                                   }
 
         );
 
         Button exercise = (Button) findViewById(R.id.home_btn_record_exercise);
         exercise.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
-                Intent actIntent = new Intent(v.getContext(), RecordExercise.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                    {
+                                        public void onClick
+                                                (View
+                                                         v) {
+                                            Intent actIntent = new Intent(v.getContext(), RecordExercise.class);
+                                            startActivityForResult(actIntent, 0);
+                                        }
+                                    }
 
         );
 
@@ -228,42 +229,42 @@ public class LandingActivity extends OrmLiteBaseActivity<DbHelper> {
         Button recDocVisit = (Button) findViewById(R.id.home_btn_doctor_record_prescription);
         recDocVisit.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
-                Intent actIntent = new Intent(v.getContext(), RecordPrescription.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                       {
+                                           public void onClick
+                                                   (View
+                                                            v) {
+                                               Intent actIntent = new Intent(v.getContext(), RecordPrescription.class);
+                                               startActivityForResult(actIntent, 0);
+                                           }
+                                       }
 
         );
 
         Button bslReport = (Button) findViewById(R.id.home_btn_bsl_report);
         bslReport.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
-                Intent actIntent = new Intent(v.getContext(), BslReport.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                     {
+                                         public void onClick
+                                                 (View
+                                                          v) {
+                                             Intent actIntent = new Intent(v.getContext(), BslReport.class);
+                                             startActivityForResult(actIntent, 0);
+                                         }
+                                     }
 
         );
 
         Button actReport = (Button) findViewById(R.id.home_btn_activity_report);
         actReport.setOnClickListener(new View.OnClickListener()
 
-        {
-            public void onClick
-                    (View
-                             v) {
-                Intent actIntent = new Intent(v.getContext(), ActivityReport.class);
-                startActivityForResult(actIntent, 0);
-            }
-        }
+                                     {
+                                         public void onClick
+                                                 (View
+                                                          v) {
+                                             Intent actIntent = new Intent(v.getContext(), ActivityReport.class);
+                                             startActivityForResult(actIntent, 0);
+                                         }
+                                     }
 
         );
 
@@ -340,7 +341,7 @@ public class LandingActivity extends OrmLiteBaseActivity<DbHelper> {
 
             case R.id.editProfileMenuBtn: {
                 Intent actIntent = new Intent(getApplicationContext(), AddUserAccount.class);
-                actIntent.putExtra("type","edit");
+                actIntent.putExtra("type", "edit");
                 startActivityForResult(actIntent, 0);
                 break;
             }

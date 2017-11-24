@@ -14,9 +14,9 @@ import java.util.Date;
  */
 
 
-@DatabaseTable (tableName = "user_account")
-public class UserAccount implements Serializable{
-    @DatabaseField(generatedId = true,columnName = "account_id")
+@DatabaseTable(tableName = "user_account")
+public class UserAccount implements Serializable {
+    @DatabaseField(generatedId = true, columnName = "account_id")
     private Integer id;
 
     @DatabaseField(columnName = "created_on", canBeNull = true)
@@ -34,7 +34,7 @@ public class UserAccount implements Serializable{
     @DatabaseField(columnName = "display_name", canBeNull = true)
     private String displayName;
 
-    @DatabaseField (canBeNull = true, columnName = "relation_with_primary")
+    @DatabaseField(canBeNull = true, columnName = "relation_with_primary")
     private String relationWithPrimaryUser;
 
     @DatabaseField(columnName = "date_of_birth", canBeNull = true)
@@ -55,37 +55,35 @@ public class UserAccount implements Serializable{
     @DatabaseField(columnName = "lifestyle", canBeNull = true)
     private String lifestyle;
 
-    @ForeignCollectionField (columnName = "weight")
+    @ForeignCollectionField(columnName = "weight")
     private ForeignCollection<UserWeight> weightTrail;
 
-    @ForeignCollectionField (columnName = "doctor")
+    @ForeignCollectionField(columnName = "doctor")
     private ForeignCollection<Doctor> doctors;
 
-    @ForeignCollectionField (columnName = "prescription")
+    @ForeignCollectionField(columnName = "prescription")
     private ForeignCollection<Prescription> prescriptions;
 
-    @ForeignCollectionField (columnName = "home_investigation")
+    @ForeignCollectionField(columnName = "home_investigation")
     private ForeignCollection<HomeInvestigationRecord> homeInvestigations;
 
-    @ForeignCollectionField (columnName = "lab_investigation")
+    @ForeignCollectionField(columnName = "lab_investigation")
     private ForeignCollection<LabInvestigationRecord> labInvestigations;
 
-    @ForeignCollectionField (columnName = "activity_record")
+    @ForeignCollectionField(columnName = "activity_record")
     private ForeignCollection<ActivityRecord> activityRecords;
 
-    @ForeignCollectionField (columnName = "symptom_record")
+    @ForeignCollectionField(columnName = "symptom_record")
     private ForeignCollection<SymptomRecord> symptomRecords;
 
-    @ForeignCollectionField (columnName = "exercise_record")
+    @ForeignCollectionField(columnName = "exercise_record")
     private ForeignCollection<ExerciseRecord> exerciseRecords;
 
-    @ForeignCollectionField (columnName = "meal_record")
+    @ForeignCollectionField(columnName = "meal_record")
     private ForeignCollection<MealRecord> mealRecords;
 
-    @ForeignCollectionField (columnName = "medication_record")
+    @ForeignCollectionField(columnName = "medication_record")
     private ForeignCollection<MedicationRecord> medicationRecords;
-
-
 
 
     public UserAccount() {
@@ -148,7 +146,7 @@ public class UserAccount implements Serializable{
     }
 
     public String getRelationWithPrimaryUser() {
-        if(relationWithPrimaryUser == null) {
+        if (relationWithPrimaryUser == null) {
             return "Self";
         }
         return relationWithPrimaryUser;
@@ -281,7 +279,7 @@ public class UserAccount implements Serializable{
     public int getAge() {
         Date today = new Date();
         int todayYr = today.getYear() + 1900;
-        int dobYear =  this.dob.getYear();
+        int dobYear = this.dob.getYear();
         return todayYr - dobYear;
     }
 

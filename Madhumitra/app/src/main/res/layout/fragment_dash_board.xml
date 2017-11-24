@@ -18,12 +18,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.3" />
+            android:layout_weight="0.4" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.6"
+            android:layout_weight="0.5"
             android:orientation="horizontal">
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -103,7 +103,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:layout_weight="0.8"
+                    android:layout_weight="0.7"
                     android:src="@drawable/activity"
                     app:civ_border_color="#E6E6E6"
                     app:civ_border_width="1dp"
@@ -112,10 +112,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.3"
                     android:gravity="center"
                     android:text="ACTIVITY"
-                    android:textColor="#6D6D6D"
+                    android:textColor="#373737"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
 
@@ -131,7 +131,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:layout_weight="0.8"
+                    android:layout_weight="0.7"
                     android:src="@drawable/exercise"
                     app:civ_border_color="#E6E6E6"
                     app:civ_border_width="1dp"
@@ -140,10 +140,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.3"
                     android:gravity="center"
                     android:text="EXERCISE"
-                    android:textColor="#6D6D6D"
+                    android:textColor="#373737"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
         </LinearLayout>
@@ -167,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:layout_weight="0.8"
+                    android:layout_weight="0.7"
                     android:src="@drawable/meal_dashboard"
                     app:civ_border_color="#E6E6E6"
                     app:civ_border_width="1dp"
@@ -176,10 +176,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.3"
                     android:gravity="center"
                     android:text="MEAL"
-                    android:textColor="#6D6D6D"
+                    android:textColor="#373737"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
 
@@ -195,7 +195,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:layout_weight="0.8"
+                    android:layout_weight="0.7"
                     android:src="@drawable/bslest"
                     app:civ_border_color="#E6E6E6"
                     app:civ_border_width="1dp"
@@ -204,10 +204,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.3"
                     android:gravity="center"
                     android:text="BSL ESTIMATION"
-                    android:textColor="#6D6D6D"
+                    android:textColor="#373737"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
         </LinearLayout>
@@ -231,7 +231,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:layout_weight="0.8"
+                    android:layout_weight="0.7"
                     android:src="@drawable/hba1c"
                     app:civ_border_color="#E6E6E6"
                     app:civ_border_width="1dp"
@@ -240,10 +240,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.3"
                     android:gravity="center"
                     android:text="HbA1c ESTIMATION"
-                    android:textColor="#6D6D6D"
+                    android:textColor="#373737"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
 
@@ -259,7 +259,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:layout_weight="0.8"
+                    android:layout_weight="0.7"
                     android:src="@drawable/prescription_dashboard"
                     app:civ_border_color="#E6E6E6"
                     app:civ_border_width="1dp"
@@ -268,10 +268,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.2"
+                    android:layout_weight="0.3"
                     android:gravity="center"
                     android:text="PRESCRIPTION"
-                    android:textColor="#6D6D6D"
+                    android:textColor="#373737"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
         </LinearLayout>

@@ -54,7 +54,7 @@ public class SelectUserAccount extends OrmLiteBaseActivity<DbHelper> {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 MadhumitraModel.getInstance().setCurrentUserAccount(userAccounts.get(i));
-                Intent actIntent = new Intent(getApplicationContext(), LandingActivity.class);
+                Intent actIntent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivityForResult(actIntent, 0);
             }
         });

@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.Spinner;
 import android.widget.TableLayout;
 import android.widget.TableRow;
+
 import com.honap.madhumitra.R;
 import com.honap.madhumitra.data.MadhumitraDataManagerFactory;
 import com.honap.madhumitra.entity.Doctor;
@@ -32,13 +33,13 @@ public class MadhumitraPreferences extends PreferenceActivity {
 
     private void populatePreferences() {
         SharedPreferences sharedPreferences = getSharedPreferences(
-                getResources().getString(R.string.preferences_id),MODE_PRIVATE);
+                getResources().getString(R.string.preferences_id), MODE_PRIVATE);
         Preferences preferences = MadhumitraModel.getInstance().getPreferences();
-        if(preferences == null) preferences = new Preferences();
-        String mornTime = sharedPreferences.getString("morningTimePref","8:00am");
-        String noonTime = sharedPreferences.getString("noonTimePref","12:00pm");
-        String evenTime = sharedPreferences.getString("evenTimePref","04:30pm");
-        String nightTime = sharedPreferences.getString("nightTimePref","08:00pm");
+        if (preferences == null) preferences = new Preferences();
+        String mornTime = sharedPreferences.getString("morningTimePref", "8:00am");
+        String noonTime = sharedPreferences.getString("noonTimePref", "12:00pm");
+        String evenTime = sharedPreferences.getString("evenTimePref", "04:30pm");
+        String nightTime = sharedPreferences.getString("nightTimePref", "08:00pm");
         // morn
         preferences.setMornHour(Utils.getHour(mornTime));
         preferences.setMornMin(Utils.getMin(mornTime));
@@ -65,9 +66,9 @@ public class MadhumitraPreferences extends PreferenceActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.saveMenuBtn : {
+            case R.id.saveMenuBtn: {
                 SharedPreferences sharedPreferences = getSharedPreferences(
-                        getResources().getString(R.string.preferences_id),MODE_PRIVATE);
+                        getResources().getString(R.string.preferences_id), MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.commit();
                 populatePreferences();
@@ -75,14 +76,13 @@ public class MadhumitraPreferences extends PreferenceActivity {
                 break;
             }
 
-            case R.id.cancelMenuBtn : {
+            case R.id.cancelMenuBtn: {
                 finish();
                 break;
             }
         }
         return true;
     }
-
 
 
 }

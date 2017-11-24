@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.honap.madhumitra.fragment.SettingFragment">
+
+    <TextView
+        android:id="@+id/morning"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/_10ssp"
+        android:paddingStart="@dimen/_10ssp"
+        android:text="Morning"
+        android:textColor="#6D6D6D" />
+
+    <TextView
+        android:id="@+id/afternoon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/_10ssp"
+        android:paddingStart="@dimen/_10ssp"
+        android:text="Afternoon"
+        android:textColor="#6D6D6D" />
+
+    <TextView
+        android:id="@+id/evening"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/_10ssp"
+        android:paddingStart="@dimen/_10ssp"
+        android:text="Evening"
+        android:textColor="#6D6D6D" />
+
+    <TextView
+        android:id="@+id/night"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/_10ssp"
+        android:paddingStart="@dimen/_10ssp"
+        android:text="Night"
+        android:textColor="#6D6D6D" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_cancel_background"
+            android:text="CANCEL"
+            android:textColor="#B1C4DC" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_ok_background"
+            android:text="SAVE"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -4,6 +4,17 @@
     <color name="colorPrimaryDark">#2F3D4B</color>
     <color name="colorAccent">#FFFFFF</color>
 
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--OnBoard-->
+
+    <color name="selected_dot">#FFFFFF</color>
+    <color name="idle_dot">#999A9A</color>
+    <color name="ob_header">#4A4A4A</color>
+    <color name="ob_desc">#4A4A4A</color>
+
+
     <color name="nav.menu.even">#2A3743</color>
     <color name="nav.menu.odd">#2C3947</color>
     <color name="menu_profile_border_color">#1D8293</color>

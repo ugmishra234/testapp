@@ -22,7 +22,9 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.honap.madhumitra.R;
 import com.honap.madhumitra.fragment.AddDocFragment;
+import com.honap.madhumitra.fragment.DashBoardFragment;
 import com.honap.madhumitra.fragment.ProfileFragment;
+import com.honap.madhumitra.fragment.SettingFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -49,6 +51,7 @@ public class MainActivity extends AppCompatActivity
     private static final String TAG_DELETE = "delete";
     private static final String TAG_REPORT = "report";
     private static final String TAG_SETTINGS = "settings";
+    private static final String TAG_EXIT = "exit";
     public static String CURRENT_TAG = TAG_PROFILE;
 
     // toolbar titles respected to selected nav menu item
@@ -95,8 +98,8 @@ public class MainActivity extends AppCompatActivity
         setUpNavigationView();
 
         if (savedInstanceState == null) {
-            navItemIndex = 0;
-            CURRENT_TAG = TAG_PROFILE;
+            navItemIndex = 6;
+            CURRENT_TAG = TAG_EXIT;
             loadHomeFragment();
         }
     }
@@ -221,19 +224,19 @@ public class MainActivity extends AppCompatActivity
     private Fragment getHomeFragment() {
         switch (navItemIndex) {
             case 0:
-                // home
-                ProfileFragment profileFragment = new ProfileFragment();
-                return profileFragment;
+                return new ProfileFragment();
             case 1:
-                // photos
-                AddDocFragment addDocFragment = new AddDocFragment();
-                return addDocFragment;
+                return new AddDocFragment();
             case 2:
-                return null;
+                return new AddDocFragment();
             case 3:
                 return null;
             case 4:
                 return null;
+            case 5:
+                return new SettingFragment();
+            case 6:
+                return new DashBoardFragment();
             default:
                 return new ProfileFragment();
         }
@@ -276,7 +279,7 @@ public class MainActivity extends AppCompatActivity
                         break;
                     case R.id.nav_exit:
                         navItemIndex = 6;
-                        CURRENT_TAG = TAG_SETTINGS;
+                        CURRENT_TAG = TAG_EXIT;
                         break;
                     default:
                         navItemIndex = 0;
